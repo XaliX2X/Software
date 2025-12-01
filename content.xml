@@ -1,0 +1,1358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ode><userPreferences><userPreference><key>theme</key><value>flux</value></userPreference></userPreferences><odeResources><odeResource><key>odeVersionId</key><value>20251201153403DNOFAA</value></odeResource><odeResource><key>odeId</key><value>20251126041607HDNZRP</value></odeResource><odeResource><key>odeVersionName</key><value>0</value></odeResource><odeResource><key>isDownload</key><value>true</value></odeResource></odeResources><odeProperties><odeProperty><key>pp_title</key><value>Software</value></odeProperty><odeProperty><key>pp_lang</key><value>es</value></odeProperty><odeProperty><key>pp_author</key><value>Ronaldo Piedra</value></odeProperty><odeProperty><key>license</key><value>creative commons: attribution - share alike 4.0</value></odeProperty><odeProperty><key>pp_description</key><value>Recurso educativo creado con la finalidad de que los estudiantes que hagan uso de el puedan aprender sobre todo lo que conlleva el software</value></odeProperty><odeProperty><key>exportSource</key><value>true</value></odeProperty><odeProperty><key>pp_addExeLink</key><value>false</value></odeProperty><odeProperty><key>pp_exportElp</key><value>false</value></odeProperty><odeProperty><key>pp_addPagination</key><value>true</value></odeProperty><odeProperty><key>pp_addSearchBox</key><value>false</value></odeProperty><odeProperty><key>pp_addAccessibilityToolbar</key><value>true</value></odeProperty><odeProperty><key>pp_extraHeadContent</key><value/></odeProperty><odeProperty><key>footer</key><value/></odeProperty></odeProperties><odeNavStructures><odeNavStructure><odePageId>20251201153404YLBVIT</odePageId><odeParentPageId/><pageName>🖥️Software</pageName><odeNavStructureOrder>1</odeNavStructureOrder><odeNavStructureProperties><odeNavStructureProperty><key>titlePage</key><value>🖥️Software</value></odeNavStructureProperty><odeNavStructureProperty><key>titleNode</key><value>🖥️Software</value></odeNavStructureProperty><odeNavStructureProperty><key>titleHtml</key><value/></odeNavStructureProperty><odeNavStructureProperty><key>editableInPage</key><value>false</value></odeNavStructureProperty><odeNavStructureProperty><key>visibility</key><value>true</value></odeNavStructureProperty><odeNavStructureProperty><key>description</key><value/></odeNavStructureProperty></odeNavStructureProperties><odePagStructures><odePagStructure><odePageId>20251201153404YLBVIT</odePageId><odeBlockId>20251201153404DEGAYB</odeBlockId><blockName/><iconName>lan</iconName><odePagStructureOrder>1</odePagStructureOrder><odePagStructureProperties><odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>identifier</key><value/></odePagStructureProperty><odePagStructureProperty><key>cssClass</key><value/></odePagStructureProperty></odePagStructureProperties><odeComponents><odeComponent><odePageId>20251201153404YLBVIT</odePageId><odeBlockId>20251201153404DEGAYB</odeBlockId><odeIdeviceId>20251111193026RGUFVR</odeIdeviceId><odeIdeviceTypeName>text</odeIdeviceTypeName><htmlView>&lt;div class="exe-text-template"&gt;&lt;div class="textIdeviceContent"&gt;
+            &lt;div class="exe-text-activity"&gt;
+                &lt;div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;style&gt;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .portada-container {
+            background: white;
+            border-radius: 20px;
+            padding: 50px 40px;
+            max-width: 800px;
+            width: 100%;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+            animation: fadeIn 1s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .logo-container {
+            text-align: center;
+            margin-bottom: 30px;
+            animation: slideDown 1.2s ease-out;
+        }
+
+        @keyframes slideDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .logo-container img {
+            max-width: 100%;
+            height: auto;
+            transition: transform 0.3s ease;
+        }
+
+        .logo-container img:hover {
+            transform: scale(1.02);
+        }
+
+        .content {
+            text-align: center;
+            animation: fadeInContent 1.5s ease-in;
+        }
+
+        @keyframes fadeInContent {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        h1 {
+            color: #2d3748;
+            font-size: 1.3em;
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+
+        h2 {
+            color: #9d4edd;
+            font-size: 1.8em;
+            margin: 25px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .info-section {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 25px;
+            margin: 25px 0;
+            border-left: 5px solid #9d4edd;
+        }
+
+        .info-item {
+            margin: 15px 0;
+            font-size: 1.1em;
+            color: #4a5568;
+        }
+
+        .info-item strong {
+            color: #2d3748;
+            display: inline-block;
+            min-width: 120px;
+        }
+
+        .btn-comenzar {
+            background: linear-gradient(135deg, #7209b7 0%, #9d4edd 100%);
+            color: white;
+            border: none;
+            padding: 18px 50px;
+            font-size: 1.3em;
+            font-weight: bold;
+            border-radius: 50px;
+            cursor: pointer;
+            margin-top: 35px;
+            box-shadow: 0 10px 25px rgba(157, 78, 221, 0.4);
+            transition: all 0.3s ease;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+        }
+
+        .btn-comenzar:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 35px rgba(157, 78, 221, 0.6);
+            animation: none;
+        }
+
+        .btn-comenzar:active {
+            transform: translateY(-1px);
+        }
+
+        .divider {
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #9d4edd, transparent);
+            margin: 30px 0;
+        }
+
+        @media (max-width: 768px) {
+            .portada-container {
+                padding: 30px 20px;
+            }
+
+            h1 {
+                font-size: 1.1em;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+
+            .btn-comenzar {
+                padding: 15px 40px;
+                font-size: 1.1em;
+            }
+        }
+    &lt;/style&gt;
+&lt;div class="portada-container"&gt;
+&lt;div class="logo-container"&gt;&lt;img src="{{context_path}}/20251111193026RGUFVR/logo_negro.png" alt="Universidad Nacional de Loja" title="Universidad Nacional de Loja"&gt;&lt;/div&gt;
+&lt;div class="content"&gt;
+&lt;h1&gt;&lt;strong&gt;Facultad de la Educación, el Arte y la Comunicación&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;Carrera de Pedagogía de las Ciencias Experimentales - Informática&lt;/strong&gt;&lt;/h1&gt;
+&lt;div class="divider"&gt;&lt;br&gt;&lt;/div&gt;
+&lt;h2&gt;📘 &lt;strong&gt;Recurso Educativo Digital&lt;/strong&gt;&lt;/h2&gt;
+&lt;div class="info-section"&gt;
+&lt;div class="info-item"&gt;&lt;strong&gt;Tema:&lt;/strong&gt;Software&lt;/div&gt;
+&lt;div class="info-item"&gt;&lt;strong&gt;Dirigido a:&lt;/strong&gt; Estudiantes de 14 y 15 años&lt;/div&gt;
+&lt;div class="info-item"&gt;&lt;strong&gt;Modalidad:&lt;/strong&gt; Autoaprendizaje interactivo&lt;/div&gt;
+&lt;/div&gt;
+&lt;a href="exe-node:20251201153404VYVUKS"&gt;&lt;button class="btn-comenzar" id="link_6"&gt;COMENZAR&lt;/button&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;p class="clearfix"&gt;&lt;/p&gt;&lt;/div&gt;
+            &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</htmlView><jsonProperties>{"ideviceId":"20251111193026RGUFVR","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"&lt;p&gt;&lt;br /&gt;&lt;/p&gt;\n&lt;style&gt;\n        * {\n            margin: 0;\n            padding: 0;\n            box-sizing: border-box;\n        }\n\n        body {\n            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\n            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);\n            min-height: 100vh;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            padding: 20px;\n        }\n\n        .portada-container {\n            background: white;\n            border-radius: 20px;\n            padding: 50px 40px;\n            max-width: 800px;\n            width: 100%;\n            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);\n            animation: fadeIn 1s ease-in;\n        }\n\n        @keyframes fadeIn {\n            from {\n                opacity: 0;\n                transform: translateY(30px);\n            }\n            to {\n                opacity: 1;\n                transform: translateY(0);\n            }\n        }\n\n        .logo-container {\n            text-align: center;\n            margin-bottom: 30px;\n            animation: slideDown 1.2s ease-out;\n        }\n\n        @keyframes slideDown {\n            from {\n                opacity: 0;\n                transform: translateY(-30px);\n            }\n            to {\n                opacity: 1;\n                transform: translateY(0);\n            }\n        }\n\n        .logo-container img {\n            max-width: 100%;\n            height: auto;\n            transition: transform 0.3s ease;\n        }\n\n        .logo-container img:hover {\n            transform: scale(1.02);\n        }\n\n        .content {\n            text-align: center;\n            animation: fadeInContent 1.5s ease-in;\n        }\n\n        @keyframes fadeInContent {\n            from {\n                opacity: 0;\n            }\n            to {\n                opacity: 1;\n            }\n        }\n\n        h1 {\n            color: #2d3748;\n            font-size: 1.3em;\n            margin-bottom: 10px;\n            line-height: 1.6;\n        }\n\n        h2 {\n            color: #9d4edd;\n            font-size: 1.8em;\n            margin: 25px 0;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            gap: 10px;\n        }\n\n        .info-section {\n            background: #f8f9fa;\n            border-radius: 15px;\n            padding: 25px;\n            margin: 25px 0;\n            border-left: 5px solid #9d4edd;\n        }\n\n        .info-item {\n            margin: 15px 0;\n            font-size: 1.1em;\n            color: #4a5568;\n        }\n\n        .info-item strong {\n            color: #2d3748;\n            display: inline-block;\n            min-width: 120px;\n        }\n\n        .btn-comenzar {\n            background: linear-gradient(135deg, #7209b7 0%, #9d4edd 100%);\n            color: white;\n            border: none;\n            padding: 18px 50px;\n            font-size: 1.3em;\n            font-weight: bold;\n            border-radius: 50px;\n            cursor: pointer;\n            margin-top: 35px;\n            box-shadow: 0 10px 25px rgba(157, 78, 221, 0.4);\n            transition: all 0.3s ease;\n            animation: pulse 2s infinite;\n        }\n\n        @keyframes pulse {\n            0%, 100% {\n                transform: scale(1);\n            }\n            50% {\n                transform: scale(1.05);\n            }\n        }\n\n        .btn-comenzar:hover {\n            transform: translateY(-3px);\n            box-shadow: 0 15px 35px rgba(157, 78, 221, 0.6);\n            animation: none;\n        }\n\n        .btn-comenzar:active {\n            transform: translateY(-1px);\n        }\n\n        .divider {\n            height: 2px;\n            background: linear-gradient(90deg, transparent, #9d4edd, transparent);\n            margin: 30px 0;\n        }\n\n        @media (max-width: 768px) {\n            .portada-container {\n                padding: 30px 20px;\n            }\n\n            h1 {\n                font-size: 1.1em;\n            }\n\n            h2 {\n                font-size: 1.5em;\n            }\n\n            .btn-comenzar {\n                padding: 15px 40px;\n                font-size: 1.1em;\n            }\n        }\n    &lt;/style&gt;\n&lt;div class=\"portada-container\"&gt;\n&lt;div class=\"logo-container\"&gt;&lt;img src=\"{{context_path}}/20251111193026RGUFVR/logo_negro.png\" alt=\"Universidad Nacional de Loja\" title=\"Universidad Nacional de Loja\" /&gt;&lt;/div&gt;\n&lt;div class=\"content\"&gt;\n&lt;h1&gt;&lt;strong&gt;Facultad de la Educación, el Arte y la Comunicación&lt;/strong&gt;&lt;br /&gt;&lt;strong&gt;Carrera de Pedagogía de las Ciencias Experimentales - Informática&lt;/strong&gt;&lt;/h1&gt;\n&lt;div class=\"divider\"&gt;&lt;br /&gt;&lt;/div&gt;\n&lt;h2&gt;📘 &lt;strong&gt;Recurso Educativo Digital&lt;/strong&gt;&lt;/h2&gt;\n&lt;div class=\"info-section\"&gt;\n&lt;div class=\"info-item\"&gt;&lt;strong&gt;Tema:&lt;/strong&gt;Software&lt;/div&gt;\n&lt;div class=\"info-item\"&gt;&lt;strong&gt;Dirigido a:&lt;/strong&gt; Estudiantes de 14 y 15 años&lt;/div&gt;\n&lt;div class=\"info-item\"&gt;&lt;strong&gt;Modalidad:&lt;/strong&gt; Autoaprendizaje interactivo&lt;/div&gt;\n&lt;/div&gt;\n&lt;a href=\"exe-node:20251201153404VYVUKS\"&gt;&lt;button class=\"btn-comenzar\" id=\"link_6\"&gt;COMENZAR&lt;/button&gt;&lt;/a&gt;&lt;/div&gt;\n&lt;/div&gt;","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}</jsonProperties><odeComponentsOrder>1</odeComponentsOrder><odeComponentsProperties><odeComponentsProperty><key>visibility</key><value>true</value></odeComponentsProperty><odeComponentsProperty><key>teacherOnly</key><value>false</value></odeComponentsProperty><odeComponentsProperty><key>identifier</key><value/></odeComponentsProperty><odeComponentsProperty><key>cssClass</key><value/></odeComponentsProperty></odeComponentsProperties></odeComponent></odeComponents></odePagStructure><odePagStructure><odePageId>20251201153404YLBVIT</odePageId><odeBlockId>20251201153404HLWHRJ</odeBlockId><blockName>Rúbrica</blockName><iconName/><odePagStructureOrder>2</odePagStructureOrder><odePagStructureProperties><odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>identifier</key><value/></odePagStructureProperty><odePagStructureProperty><key>cssClass</key><value/></odePagStructureProperty></odePagStructureProperties><odeComponents/></odePagStructure></odePagStructures></odeNavStructure><odeNavStructure><odePageId>20251201153404KLWPVD</odePageId><odeParentPageId/><pageName>🎯  Objetivo de aprendizaje</pageName><odeNavStructureOrder>2</odeNavStructureOrder><odeNavStructureProperties><odeNavStructureProperty><key>titlePage</key><value>🎯  Objetivo de aprendizaje</value></odeNavStructureProperty></odeNavStructureProperties><odePagStructures><odePagStructure><odePageId>20251201153404KLWPVD</odePageId><odeBlockId>20251201153404RRODPB</odeBlockId><blockName/><iconName>edited_explore</iconName><odePagStructureOrder>6</odePagStructureOrder><odePagStructureProperties><odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>identifier</key><value/></odePagStructureProperty><odePagStructureProperty><key>cssClass</key><value/></odePagStructureProperty></odePagStructureProperties><odeComponents><odeComponent><odePageId>20251201153404KLWPVD</odePageId><odeBlockId>20251201153404RRODPB</odeBlockId><odeIdeviceId>20251111193026SCIYMT</odeIdeviceId><odeIdeviceTypeName>text</odeIdeviceTypeName><htmlView>&lt;div class="exe-text-template"&gt;&lt;div class="textIdeviceContent"&gt;
+            &lt;div class="exe-text-activity"&gt;
+                &lt;div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;style&gt;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 20px;
+        }
+
+        .objetivo-container {
+            background: white;
+            border-radius: 25px;
+            padding: 50px 40px;
+            max-width: 900px;
+            width: 100%;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+            animation: fadeInUp 1s ease-out;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(40px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            animation: slideDown 1.2s ease-out;
+        }
+
+        @keyframes slideDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .header h1 {
+            color: #9d4edd;
+            font-size: 2em;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+        }
+
+        .header .icon {
+            font-size: 1.3em;
+            animation: bounce 2s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        .divider {
+            height: 3px;
+            background: linear-gradient(90deg, transparent, #9d4edd, transparent);
+            margin: 30px auto;
+            max-width: 200px;
+            border-radius: 2px;
+        }
+
+        .objetivo-content {
+            background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+            border-radius: 20px;
+            padding: 35px;
+            border: 2px solid #e9ecef;
+            box-shadow: 0 4px 15px rgba(157, 78, 221, 0.1);
+            animation: fadeIn 1.5s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        .objetivo-text {
+            font-size: 1.2em;
+            line-height: 1.8;
+            color: #2d3748;
+            text-align: center;
+            margin-bottom: 30px;
+            font-weight: 500;
+        }
+
+        .imagen-container {
+            text-align: center;
+            margin-top: 35px;
+            animation: zoomIn 1.5s ease-out;
+        }
+
+        @keyframes zoomIn {
+            from {
+                opacity: 0;
+                transform: scale(0.8);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        .imagen-container img {
+            max-width: 300px;
+            height: auto;
+            transition: transform 0.4s ease;
+            filter: drop-shadow(0 10px 25px rgba(157, 78, 221, 0.2));
+        }
+
+        .imagen-container img:hover {
+            transform: scale(1.05) rotate(2deg);
+        }
+
+        .objetivo-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #7209b7 0%, #9d4edd 100%);
+            color: white;
+            padding: 12px 30px;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 0.95em;
+            margin-bottom: 25px;
+            box-shadow: 0 5px 15px rgba(157, 78, 221, 0.3);
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .objetivo-container {
+                padding: 35px 25px;
+            }
+
+            .header h1 {
+                font-size: 1.6em;
+            }
+
+            .objetivo-text {
+                font-size: 1.05em;
+            }
+
+            .imagen-container img {
+                max-width: 250px;
+            }
+        }
+    &lt;/style&gt;
+&lt;div class="objetivo-container"&gt;
+&lt;div class="header"&gt;
+&lt;h1&gt;&lt;span class="icon"&gt;🎯&lt;/span&gt; &lt;strong&gt;Objetivo de Aprendizaje&lt;/strong&gt;&lt;/h1&gt;
+&lt;div class="divider"&gt;&lt;br&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="objetivo-content"&gt;
+&lt;div style="text-align: center;"&gt;&lt;span class="objetivo-badge"&gt;Al finalizar este recurso serás capaz de:&lt;/span&gt;&lt;/div&gt;
+&lt;p class="objetivo-text"&gt;&lt;strong&gt;Reconocer y utilizar adecuadamente los diferentes tipos de software, comprendiendo sus funciones y características principales, para desenvolver tareas básicas en el entorno informático de manera autónoma y eficiente.&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="imagen-container"&gt;&lt;img src="{{context_path}}/20251111193026SCIYMT/845-removebg-preview.png" alt="Objetivo de aprendizaje" title="Objetivo de aprendizaje"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p class="clearfix"&gt;&lt;/p&gt;&lt;/div&gt;
+            &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</htmlView><jsonProperties>{"ideviceId":"20251111193026SCIYMT","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"&lt;p&gt;&lt;br /&gt;&lt;/p&gt;\n&lt;style&gt;\n        * {\n            margin: 0;\n            padding: 0;\n            box-sizing: border-box;\n        }\n\n        body {\n            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\n            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);\n            min-height: 100vh;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            padding: 40px 20px;\n        }\n\n        .objetivo-container {\n            background: white;\n            border-radius: 25px;\n            padding: 50px 40px;\n            max-width: 900px;\n            width: 100%;\n            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);\n            animation: fadeInUp 1s ease-out;\n        }\n\n        @keyframes fadeInUp {\n            from {\n                opacity: 0;\n                transform: translateY(40px);\n            }\n            to {\n                opacity: 1;\n                transform: translateY(0);\n            }\n        }\n\n        .header {\n            text-align: center;\n            margin-bottom: 40px;\n            animation: slideDown 1.2s ease-out;\n        }\n\n        @keyframes slideDown {\n            from {\n                opacity: 0;\n                transform: translateY(-20px);\n            }\n            to {\n                opacity: 1;\n                transform: translateY(0);\n            }\n        }\n\n        .header h1 {\n            color: #9d4edd;\n            font-size: 2em;\n            margin-bottom: 15px;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            gap: 12px;\n        }\n\n        .header .icon {\n            font-size: 1.3em;\n            animation: bounce 2s infinite;\n        }\n\n        @keyframes bounce {\n            0%, 100% {\n                transform: translateY(0);\n            }\n            50% {\n                transform: translateY(-10px);\n            }\n        }\n\n        .divider {\n            height: 3px;\n            background: linear-gradient(90deg, transparent, #9d4edd, transparent);\n            margin: 30px auto;\n            max-width: 200px;\n            border-radius: 2px;\n        }\n\n        .objetivo-content {\n            background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);\n            border-radius: 20px;\n            padding: 35px;\n            border: 2px solid #e9ecef;\n            box-shadow: 0 4px 15px rgba(157, 78, 221, 0.1);\n            animation: fadeIn 1.5s ease-in;\n        }\n\n        @keyframes fadeIn {\n            from {\n                opacity: 0;\n            }\n            to {\n                opacity: 1;\n            }\n        }\n\n        .objetivo-text {\n            font-size: 1.2em;\n            line-height: 1.8;\n            color: #2d3748;\n            text-align: center;\n            margin-bottom: 30px;\n            font-weight: 500;\n        }\n\n        .imagen-container {\n            text-align: center;\n            margin-top: 35px;\n            animation: zoomIn 1.5s ease-out;\n        }\n\n        @keyframes zoomIn {\n            from {\n                opacity: 0;\n                transform: scale(0.8);\n            }\n            to {\n                opacity: 1;\n                transform: scale(1);\n            }\n        }\n\n        .imagen-container img {\n            max-width: 300px;\n            height: auto;\n            transition: transform 0.4s ease;\n            filter: drop-shadow(0 10px 25px rgba(157, 78, 221, 0.2));\n        }\n\n        .imagen-container img:hover {\n            transform: scale(1.05) rotate(2deg);\n        }\n\n        .objetivo-badge {\n            display: inline-block;\n            background: linear-gradient(135deg, #7209b7 0%, #9d4edd 100%);\n            color: white;\n            padding: 12px 30px;\n            border-radius: 50px;\n            font-weight: bold;\n            font-size: 0.95em;\n            margin-bottom: 25px;\n            box-shadow: 0 5px 15px rgba(157, 78, 221, 0.3);\n            animation: pulse 2s infinite;\n        }\n\n        @keyframes pulse {\n            0%, 100% {\n                transform: scale(1);\n            }\n            50% {\n                transform: scale(1.05);\n            }\n        }\n\n        @media (max-width: 768px) {\n            .objetivo-container {\n                padding: 35px 25px;\n            }\n\n            .header h1 {\n                font-size: 1.6em;\n            }\n\n            .objetivo-text {\n                font-size: 1.05em;\n            }\n\n            .imagen-container img {\n                max-width: 250px;\n            }\n        }\n    &lt;/style&gt;\n&lt;div class=\"objetivo-container\"&gt;\n&lt;div class=\"header\"&gt;\n&lt;h1&gt;&lt;span class=\"icon\"&gt;🎯&lt;/span&gt; &lt;strong&gt;Objetivo de Aprendizaje&lt;/strong&gt;&lt;/h1&gt;\n&lt;div class=\"divider\"&gt;&lt;br /&gt;&lt;/div&gt;\n&lt;/div&gt;\n&lt;div class=\"objetivo-content\"&gt;\n&lt;div style=\"text-align: center;\"&gt;&lt;span class=\"objetivo-badge\"&gt;Al finalizar este recurso serás capaz de:&lt;/span&gt;&lt;/div&gt;\n&lt;p class=\"objetivo-text\"&gt;&lt;strong&gt;Reconocer y utilizar adecuadamente los diferentes tipos de software, comprendiendo sus funciones y características principales, para desenvolver tareas básicas en el entorno informático de manera autónoma y eficiente.&lt;/strong&gt;&lt;/p&gt;\n&lt;div class=\"imagen-container\"&gt;&lt;img src=\"{{context_path}}/20251111193026SCIYMT/845-removebg-preview.png\" alt=\"Objetivo de aprendizaje\" title=\"Objetivo de aprendizaje\" /&gt;&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}</jsonProperties><odeComponentsOrder>1</odeComponentsOrder><odeComponentsProperties><odeComponentsProperty><key>visibility</key><value>true</value></odeComponentsProperty><odeComponentsProperty><key>teacherOnly</key><value>false</value></odeComponentsProperty><odeComponentsProperty><key>identifier</key><value/></odeComponentsProperty><odeComponentsProperty><key>cssClass</key><value/></odeComponentsProperty></odeComponentsProperties></odeComponent></odeComponents></odePagStructure></odePagStructures></odeNavStructure><odeNavStructure><odePageId>20251201153404GWIYTD</odePageId><odeParentPageId/><pageName>📚  Contenidos</pageName><odeNavStructureOrder>3</odeNavStructureOrder><odeNavStructureProperties><odeNavStructureProperty><key>titlePage</key><value>📚  Contenidos</value></odeNavStructureProperty></odeNavStructureProperties><odePagStructures><odePagStructure><odePageId>20251201153404GWIYTD</odePageId><odeBlockId>20251201153404BMHOZN</odeBlockId><blockName>Introducción General del tema</blockName><iconName>description</iconName><odePagStructureOrder>1</odePagStructureOrder><odePagStructureProperties><odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>identifier</key><value/></odePagStructureProperty><odePagStructureProperty><key>cssClass</key><value/></odePagStructureProperty></odePagStructureProperties><odeComponents><odeComponent><odePageId>20251201153404GWIYTD</odePageId><odeBlockId>20251201153404BMHOZN</odeBlockId><odeIdeviceId>20251111193026KJOYNX</odeIdeviceId><odeIdeviceTypeName>text</odeIdeviceTypeName><htmlView>&lt;div class="exe-text-template"&gt;&lt;div class="textIdeviceContent"&gt;
+            &lt;div class="exe-text-activity"&gt;
+                &lt;div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;style&gt;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+
+        .contenido-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            animation: fadeIn 0.8s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .header {
+            background: white;
+            border-radius: 15px;
+            padding: 40px;
+            margin-bottom: 30px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .header h1 {
+            color: #5e35b1;
+            font-size: 2.2em;
+            margin-bottom: 20px;
+        }
+
+        .intro-text {
+            color: #2d3748;
+            font-size: 1.1em;
+            line-height: 1.8;
+            text-align: justify;
+            margin-bottom: 20px;
+        }
+
+        .intro-subtitle {
+            color: #5e35b1;
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+
+        .acordeon-item {
+            background: white;
+            border-radius: 12px;
+            margin-bottom: 15px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .acordeon-item:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(94, 53, 177, 0.2);
+        }
+
+        .acordeon-header {
+            background: linear-gradient(135deg, #5e35b1 0%, #7e57c2 100%);
+            color: white;
+            padding: 20px 25px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background 0.3s ease;
+        }
+
+        .acordeon-header:hover {
+            background: linear-gradient(135deg, #4a2c8f 0%, #6a4ba8 100%);
+        }
+
+        .acordeon-header h3 {
+            font-size: 1.3em;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .acordeon-icon {
+            font-size: 1.5em;
+            transition: transform 0.3s ease;
+        }
+
+        .acordeon-icon.active {
+            transform: rotate(180deg);
+        }
+
+        .acordeon-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease;
+        }
+
+        .acordeon-content.active {
+            max-height: 3000px;
+        }
+
+        .acordeon-body {
+            padding: 30px 25px;
+            color: #2d3748;
+            line-height: 1.8;
+        }
+
+        .acordeon-body p {
+            margin-bottom: 15px;
+            font-size: 1.05em;
+            text-align: justify;
+        }
+
+        .acordeon-body ul {
+            margin: 15px 0 15px 25px;
+        }
+
+        .acordeon-body li {
+            margin-bottom: 12px;
+            font-size: 1.05em;
+            line-height: 1.7;
+        }
+
+        .acordeon-body strong {
+            color: #5e35b1;
+        }
+
+        .tipo-software {
+            background: #f5f3ff;
+            border-left: 4px solid #7e57c2;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 8px;
+        }
+
+        .tipo-software h4 {
+            color: #5e35b1;
+            margin-bottom: 8px;
+            font-size: 1.1em;
+        }
+
+        @media (max-width: 768px) {
+            .header {
+                padding: 25px 20px;
+            }
+
+            .header h1 {
+                font-size: 1.7em;
+            }
+
+            .intro-text {
+                font-size: 1em;
+            }
+
+            .acordeon-header h3 {
+                font-size: 1.1em;
+            }
+
+            .acordeon-body {
+                padding: 20px 18px;
+            }
+        }
+    &lt;/style&gt;
+&lt;div class="contenido-container"&gt;&lt;!-- Header con introducción --&gt;
+&lt;div class="header"&gt;
+&lt;h1 style="text-align: center;"&gt;&lt;strong&gt;Conceptos Clave del Software&lt;/strong&gt;&lt;/h1&gt;
+&lt;p class="intro-text"&gt;El software constituye el componente lógico fundamental de cualquier sistema informático contemporáneo, representando el conjunto de instrucciones que permiten a los dispositivos ejecutar funciones específicas y complejas (Sommerville, 2020). En la actualidad, el software ha evolucionado hacia arquitecturas más dinámicas, incluyendo aplicaciones nativas en la nube, sistemas basados en inteligencia artificial y plataformas de código bajo que democratizan el desarrollo tecnológico (Ebert et al., 2021).&amp;nbsp;&lt;/p&gt;
+&lt;p class="intro-subtitle"&gt;A continuación, explora los conceptos fundamentales:&lt;/p&gt;
+&lt;/div&gt;
+&lt;!-- Acordeón 1: Concepto General --&gt;
+&lt;div class="acordeon-item"&gt;
+&lt;div class="acordeon-header" onclick="toggleAcordeon(this)"&gt;
+&lt;h3&gt;○ Concepto General de Software&lt;/h3&gt;
+&lt;span class="acordeon-icon"&gt;▼&lt;/span&gt;&lt;/div&gt;
+&lt;div class="acordeon-content"&gt;
+&lt;div class="acordeon-body"&gt;
+&lt;p&gt;El software es el conjunto organizado de instrucciones, datos y programas que dirigen el funcionamiento de dispositivos computacionales, permitiendo la ejecución de tareas específicas desde operaciones básicas hasta procesos altamente complejos (Sommerville, 2020). A diferencia del hardware, que representa los componentes físicos tangibles, el software es intangible y se almacena en forma de código binario que el procesador puede interpretar y ejecutar (Pressman &amp; Maxim, 2020).&lt;/p&gt;
+&lt;p&gt;En el contexto actual, el software abarca desde sistemas operativos que gestionan recursos del equipo hasta aplicaciones especializadas que utilizan aprendizaje automático y procesamiento de datos masivos (Ebert et al., 2021). El software moderno se caracteriza por su modularidad, escalabilidad y capacidad de integración con servicios en la nube, lo que permite su distribución y actualización continua sin intervención directa de las personas usuarias (Bass et al., 2021).&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Acordeón 2: Características --&gt;
+&lt;div class="acordeon-item"&gt;
+&lt;div class="acordeon-header" onclick="toggleAcordeon(this)"&gt;
+&lt;h3&gt;○ Características del Software&lt;/h3&gt;
+&lt;span class="acordeon-icon"&gt;▼&lt;/span&gt;&lt;/div&gt;
+&lt;div class="acordeon-content"&gt;
+&lt;div class="acordeon-body"&gt;
+&lt;p&gt;El software presenta características distintivas que lo diferencian de otros componentes tecnológicos y que definen su naturaleza única en el ecosistema digital (Pressman &amp; Maxim, 2020):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Intangibilidad:&lt;/strong&gt; No posee existencia física; está compuesto por código fuente, instrucciones binarias y estructuras de datos almacenadas electrónicamente (Sommerville, 2020).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dependencia del hardware:&lt;/strong&gt; Requiere infraestructura física (procesadores, memoria, almacenamiento) para su ejecución, aunque las tecnologías de virtualización y contenedorización han flexibilizado esta relación (Bass et al., 2021).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Actualizable y modificable:&lt;/strong&gt; Puede mejorarse mediante parches, actualizaciones incrementales o nuevas versiones sin requerir cambios en el hardware subyacente. Las metodologías DevOps permiten actualizaciones continuas y automáticas (Ebert et al., 2021).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Escalabilidad dinámica:&lt;/strong&gt; El software en la nube puede ajustar automáticamente sus recursos según la demanda, optimizando costos y rendimiento (Armbrust et al., 2020).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reutilización de componentes:&lt;/strong&gt; Los módulos y bibliotecas de software pueden reutilizarse en múltiples proyectos, acelerando el desarrollo y mejorando la confiabilidad (Pressman &amp; Maxim, 2020).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Interactividad multimodal:&lt;/strong&gt; Permite comunicación mediante interfaces gráficas, comandos de voz, gestos táctiles y realidad aumentada, adaptándose a diversos contextos de uso (Norman, 2020).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Capacidad de aprendizaje:&lt;/strong&gt; Los sistemas modernos incorporan algoritmos de aprendizaje automático que les permiten mejorar su desempeño con el tiempo basándose en datos de uso (Goodfellow et al., 2020).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Conectividad e integración:&lt;/strong&gt; El software contemporáneo está diseñado para interoperar con otros sistemas mediante APIs, microservicios y protocolos estandarizados (Richardson, 2020).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Acordeón 3: Funciones --&gt;
+&lt;div class="acordeon-item"&gt;
+&lt;div class="acordeon-header" onclick="toggleAcordeon(this)"&gt;
+&lt;h3&gt;○ Funciones del Software&lt;/h3&gt;
+&lt;span class="acordeon-icon"&gt;▼&lt;/span&gt;&lt;/div&gt;
+&lt;div class="acordeon-content"&gt;
+&lt;div class="acordeon-body"&gt;
+&lt;p&gt;El software desempeña funciones críticas que permiten el funcionamiento eficiente de los sistemas computacionales y la realización de actividades complejas (Tanenbaum &amp; Bos, 2020):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Gestión de recursos computacionales:&lt;/strong&gt; Administra la memoria RAM, el procesador, los dispositivos de entrada/salida y el almacenamiento mediante algoritmos de planificación y asignación optimizados (Silberschatz et al., 2021).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Facilitación de la interacción persona-sistema:&lt;/strong&gt; Proporciona interfaces intuitivas, accesibles e inclusivas que permiten la operación efectiva sin requerir conocimientos técnicos especializados (Norman, 2020).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Procesamiento y análisis de datos:&lt;/strong&gt; Transforma información mediante algoritmos que van desde operaciones aritméticas simples hasta análisis predictivos basados en inteligencia artificial (Goodfellow et al., 2020).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Automatización de procesos:&lt;/strong&gt; Ejecuta tareas repetitivas, flujos de trabajo complejos y operaciones programadas sin intervención manual, aumentando la eficiencia organizacional (Ebert et al., 2021).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Seguridad y protección de información:&lt;/strong&gt; Implementa mecanismos de autenticación multifactor, cifrado de datos, detección de amenazas y cumplimiento normativo para proteger activos digitales (Stallings &amp; Brown, 2023).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Comunicación y colaboración:&lt;/strong&gt; Facilita la interconexión entre personas y sistemas mediante plataformas de mensajería, videoconferencia, gestión de proyectos y espacios de trabajo compartidos (Richardson, 2020).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Optimización continua del rendimiento:&lt;/strong&gt; Monitorea el comportamiento del sistema, identifica cuellos de botella y ajusta parámetros para maximizar la eficiencia energética y computacional (Bass et al., 2021).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Personalización de experiencias:&lt;/strong&gt; Adapta interfaces, recomendaciones y funcionalidades según preferencias individuales y patrones de comportamiento detectados (Norman, 2020).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Acordeón 4: Tipos de Software --&gt;
+&lt;div class="acordeon-item"&gt;
+&lt;div class="acordeon-header" onclick="toggleAcordeon(this)"&gt;
+&lt;h3&gt;○ Tipos de Software&lt;/h3&gt;
+&lt;span class="acordeon-icon"&gt;▼&lt;/span&gt;&lt;/div&gt;
+&lt;div class="acordeon-content"&gt;
+&lt;div class="acordeon-body"&gt;
+&lt;p&gt;El software se clasifica según su función, arquitectura y modelo de distribución, reflejando la diversidad de necesidades en el ecosistema tecnológico actual (Pressman &amp; Maxim, 2020; Sommerville, 2020):&lt;/p&gt;
+&lt;div class="tipo-software"&gt;
+&lt;h4&gt;1. Software de Sistema&lt;/h4&gt;
+&lt;p&gt;Conjunto de programas fundamentales que gestionan los recursos del hardware y proporcionan servicios básicos para otros programas. Incluye sistemas operativos (Windows 11, macOS Sonoma, Ubuntu 24.04, Android 14, iOS 17), hipervisores de virtualización (VMware, Hyper-V) y firmware que controla dispositivos específicos (Tanenbaum &amp; Bos, 2020). Los sistemas operativos modernos incorporan contenedores, gestión energética avanzada y seguridad basada en hardware (Silberschatz et al., 2021).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="tipo-software"&gt;
+&lt;h4&gt;2. Software de Aplicación&lt;/h4&gt;
+&lt;p&gt;Programas diseñados para realizar tareas específicas orientadas a personas usuarias finales. Ejemplos incluyen suites ofimáticas (Microsoft 365, Google Workspace), navegadores web (Chrome, Firefox, Edge), herramientas de diseño (Figma, Adobe Creative Cloud), plataformas de comunicación (Zoom, Microsoft Teams) y aplicaciones de productividad personal (Notion, Trello) (Ebert et al., 2021). Las aplicaciones contemporáneas priorizan la accesibilidad, la compatibilidad multiplataforma y la sincronización en la nube (Bass et al., 2021).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="tipo-software"&gt;
+&lt;h4&gt;3. Software Utilitario&lt;/h4&gt;
+&lt;p&gt;Herramientas especializadas para mantenimiento, optimización, seguridad y diagnóstico de sistemas. Incluye antivirus de nueva generación (Microsoft Defender, Malwarebytes), administradores de contraseñas (Bitwarden, 1Password), herramientas de respaldo automático (Acronis, Veeam), optimizadores de rendimiento y utilidades de recuperación de datos (Stallings &amp; Brown, 2023). Los utilitarios modernos incorporan detección basada en comportamiento y respuesta automatizada a amenazas (Silberschatz et al., 2021).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="tipo-software"&gt;
+&lt;h4&gt;4. Software de Desarrollo&lt;/h4&gt;
+&lt;p&gt;Conjunto de herramientas utilizadas para crear, probar, depurar y mantener aplicaciones. Comprende entornos de desarrollo integrados (Visual Studio Code, JetBrains IntelliJ), lenguajes de programación (Python, JavaScript, Rust, Go), sistemas de control de versiones (Git, GitHub), frameworks (React, Flutter, Django) y plataformas de integración continua (Jenkins, GitLab CI/CD) (Pressman &amp; Maxim, 2020). El desarrollo moderno enfatiza la colaboración, la automatización y las prácticas DevOps (Ebert et al., 2021).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="tipo-software"&gt;
+&lt;h4&gt;5. Software como Servicio (SaaS)&lt;/h4&gt;
+&lt;p&gt;Aplicaciones distribuidas mediante Internet que se ejecutan en servidores remotos, eliminando la necesidad de instalación local y permitiendo acceso desde cualquier dispositivo con conectividad. Ejemplos incluyen plataformas educativas (Moodle, Canvas), herramientas de diseño colaborativo (Canva, Figma), sistemas de gestión empresarial (Salesforce, SAP S/4HANA Cloud) y servicios de almacenamiento (Google Drive, Dropbox) (Armbrust et al., 2020). Este modelo ofrece actualizaciones automáticas, escalabilidad elástica y modelo de pago por uso (Richardson, 2020).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="tipo-software"&gt;
+&lt;h4&gt;6. Software de Inteligencia Artificial y Aprendizaje Automático&lt;/h4&gt;
+&lt;p&gt;Sistemas que utilizan algoritmos de aprendizaje profundo, procesamiento de lenguaje natural y visión por computadora para realizar tareas cognitivas complejas. Incluye asistentes virtuales (Siri, Google Assistant), sistemas de recomendación (Netflix, Spotify), herramientas de generación de contenido (ChatGPT, DALL-E) y plataformas de análisis predictivo (TensorFlow, PyTorch) (Goodfellow et al., 2020). Estos sistemas aprenden de datos históricos y mejoran continuamente su precisión y capacidad de generalización (Russell &amp; Norvig, 2021).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="tipo-software"&gt;
+&lt;h4&gt;7. Software de Código Abierto&lt;/h4&gt;
+&lt;p&gt;Programas cuyo código fuente es públicamente accesible, permitiendo su estudio, modificación y distribución libre. Ejemplos destacados incluyen Linux, WordPress, LibreOffice, PostgreSQL y Blender. Este modelo fomenta la colaboración global, la transparencia y la innovación comunitaria (Raymond, 2020). Las organizaciones adoptan cada vez más software de código abierto por su flexibilidad, ausencia de licencias restrictivas y rápida evolución impulsada por comunidades activas (Ebert et al., 2021).&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+&lt;script&gt;
+    function toggleAcordeon(header) {
+        const content = header.nextElementSibling;
+        const icon = header.querySelector('.acordeon-icon');
+        
+        // Cerrar otros acordeones
+        document.querySelectorAll('.acordeon-content').forEach(item =&gt; {
+            if (item !== content) {
+                item.classList.remove('active');
+            }
+        });
+        document.querySelectorAll('.acordeon-icon').forEach(item =&gt; {
+            if (item !== icon) {
+                item.classList.remove('active');
+            }
+        });
+        
+        // Toggle del acordeón actual
+        content.classList.toggle('active');
+        icon.classList.toggle('active');
+    }
+&lt;/script&gt;
+&lt;/p&gt;&lt;p class="clearfix"&gt;&lt;/p&gt;&lt;/div&gt;
+            &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</htmlView><jsonProperties>{"ideviceId":"20251111193026KJOYNX","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"&lt;p&gt;&lt;br /&gt;&lt;/p&gt;\n&lt;style&gt;\n        * {\n            margin: 0;\n            padding: 0;\n            box-sizing: border-box;\n        }\n\n        body {\n            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\n            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);\n            min-height: 100vh;\n            padding: 40px 20px;\n        }\n\n        .contenido-container {\n            max-width: 1000px;\n            margin: 0 auto;\n            animation: fadeIn 0.8s ease-out;\n        }\n\n        @keyframes fadeIn {\n            from {\n                opacity: 0;\n                transform: translateY(20px);\n            }\n            to {\n                opacity: 1;\n                transform: translateY(0);\n            }\n        }\n\n        .header {\n            background: white;\n            border-radius: 15px;\n            padding: 40px;\n            margin-bottom: 30px;\n            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);\n        }\n\n        .header h1 {\n            color: #5e35b1;\n            font-size: 2.2em;\n            margin-bottom: 20px;\n        }\n\n        .intro-text {\n            color: #2d3748;\n            font-size: 1.1em;\n            line-height: 1.8;\n            text-align: justify;\n            margin-bottom: 20px;\n        }\n\n        .intro-subtitle {\n            color: #5e35b1;\n            font-size: 1.2em;\n            font-weight: bold;\n            margin-top: 25px;\n            margin-bottom: 15px;\n        }\n\n        .acordeon-item {\n            background: white;\n            border-radius: 12px;\n            margin-bottom: 15px;\n            overflow: hidden;\n            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);\n            transition: all 0.3s ease;\n        }\n\n        .acordeon-item:hover {\n            transform: translateY(-2px);\n            box-shadow: 0 6px 20px rgba(94, 53, 177, 0.2);\n        }\n\n        .acordeon-header {\n            background: linear-gradient(135deg, #5e35b1 0%, #7e57c2 100%);\n            color: white;\n            padding: 20px 25px;\n            cursor: pointer;\n            display: flex;\n            justify-content: space-between;\n            align-items: center;\n            transition: background 0.3s ease;\n        }\n\n        .acordeon-header:hover {\n            background: linear-gradient(135deg, #4a2c8f 0%, #6a4ba8 100%);\n        }\n\n        .acordeon-header h3 {\n            font-size: 1.3em;\n            display: flex;\n            align-items: center;\n            gap: 12px;\n        }\n\n        .acordeon-icon {\n            font-size: 1.5em;\n            transition: transform 0.3s ease;\n        }\n\n        .acordeon-icon.active {\n            transform: rotate(180deg);\n        }\n\n        .acordeon-content {\n            max-height: 0;\n            overflow: hidden;\n            transition: max-height 0.4s ease;\n        }\n\n        .acordeon-content.active {\n            max-height: 3000px;\n        }\n\n        .acordeon-body {\n            padding: 30px 25px;\n            color: #2d3748;\n            line-height: 1.8;\n        }\n\n        .acordeon-body p {\n            margin-bottom: 15px;\n            font-size: 1.05em;\n            text-align: justify;\n        }\n\n        .acordeon-body ul {\n            margin: 15px 0 15px 25px;\n        }\n\n        .acordeon-body li {\n            margin-bottom: 12px;\n            font-size: 1.05em;\n            line-height: 1.7;\n        }\n\n        .acordeon-body strong {\n            color: #5e35b1;\n        }\n\n        .tipo-software {\n            background: #f5f3ff;\n            border-left: 4px solid #7e57c2;\n            padding: 15px;\n            margin: 15px 0;\n            border-radius: 8px;\n        }\n\n        .tipo-software h4 {\n            color: #5e35b1;\n            margin-bottom: 8px;\n            font-size: 1.1em;\n        }\n\n        @media (max-width: 768px) {\n            .header {\n                padding: 25px 20px;\n            }\n\n            .header h1 {\n                font-size: 1.7em;\n            }\n\n            .intro-text {\n                font-size: 1em;\n            }\n\n            .acordeon-header h3 {\n                font-size: 1.1em;\n            }\n\n            .acordeon-body {\n                padding: 20px 18px;\n            }\n        }\n    &lt;/style&gt;\n&lt;div class=\"contenido-container\"&gt;&lt;!-- Header con introducción --&gt;\n&lt;div class=\"header\"&gt;\n&lt;h1 style=\"text-align: center;\"&gt;&lt;strong&gt;Conceptos Clave del Software&lt;/strong&gt;&lt;/h1&gt;\n&lt;p class=\"intro-text\"&gt;El software constituye el componente lógico fundamental de cualquier sistema informático contemporáneo, representando el conjunto de instrucciones que permiten a los dispositivos ejecutar funciones específicas y complejas (Sommerville, 2020). En la actualidad, el software ha evolucionado hacia arquitecturas más dinámicas, incluyendo aplicaciones nativas en la nube, sistemas basados en inteligencia artificial y plataformas de código bajo que democratizan el desarrollo tecnológico (Ebert et al., 2021). &lt;/p&gt;\n&lt;p class=\"intro-subtitle\"&gt;A continuación, explora los conceptos fundamentales:&lt;/p&gt;\n&lt;/div&gt;\n&lt;!-- Acordeón 1: Concepto General --&gt;\n&lt;div class=\"acordeon-item\"&gt;\n&lt;div class=\"acordeon-header\" onclick=\"toggleAcordeon(this)\"&gt;\n&lt;h3&gt;○ Concepto General de Software&lt;/h3&gt;\n&lt;span class=\"acordeon-icon\"&gt;▼&lt;/span&gt;&lt;/div&gt;\n&lt;div class=\"acordeon-content\"&gt;\n&lt;div class=\"acordeon-body\"&gt;\n&lt;p&gt;El software es el conjunto organizado de instrucciones, datos y programas que dirigen el funcionamiento de dispositivos computacionales, permitiendo la ejecución de tareas específicas desde operaciones básicas hasta procesos altamente complejos (Sommerville, 2020). A diferencia del hardware, que representa los componentes físicos tangibles, el software es intangible y se almacena en forma de código binario que el procesador puede interpretar y ejecutar (Pressman &amp; Maxim, 2020).&lt;/p&gt;\n&lt;p&gt;En el contexto actual, el software abarca desde sistemas operativos que gestionan recursos del equipo hasta aplicaciones especializadas que utilizan aprendizaje automático y procesamiento de datos masivos (Ebert et al., 2021). El software moderno se caracteriza por su modularidad, escalabilidad y capacidad de integración con servicios en la nube, lo que permite su distribución y actualización continua sin intervención directa de las personas usuarias (Bass et al., 2021).&lt;/p&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;!-- Acordeón 2: Características --&gt;\n&lt;div class=\"acordeon-item\"&gt;\n&lt;div class=\"acordeon-header\" onclick=\"toggleAcordeon(this)\"&gt;\n&lt;h3&gt;○ Características del Software&lt;/h3&gt;\n&lt;span class=\"acordeon-icon\"&gt;▼&lt;/span&gt;&lt;/div&gt;\n&lt;div class=\"acordeon-content\"&gt;\n&lt;div class=\"acordeon-body\"&gt;\n&lt;p&gt;El software presenta características distintivas que lo diferencian de otros componentes tecnológicos y que definen su naturaleza única en el ecosistema digital (Pressman &amp; Maxim, 2020):&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Intangibilidad:&lt;/strong&gt; No posee existencia física; está compuesto por código fuente, instrucciones binarias y estructuras de datos almacenadas electrónicamente (Sommerville, 2020).&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Dependencia del hardware:&lt;/strong&gt; Requiere infraestructura física (procesadores, memoria, almacenamiento) para su ejecución, aunque las tecnologías de virtualización y contenedorización han flexibilizado esta relación (Bass et al., 2021).&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Actualizable y modificable:&lt;/strong&gt; Puede mejorarse mediante parches, actualizaciones incrementales o nuevas versiones sin requerir cambios en el hardware subyacente. Las metodologías DevOps permiten actualizaciones continuas y automáticas (Ebert et al., 2021).&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Escalabilidad dinámica:&lt;/strong&gt; El software en la nube puede ajustar automáticamente sus recursos según la demanda, optimizando costos y rendimiento (Armbrust et al., 2020).&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Reutilización de componentes:&lt;/strong&gt; Los módulos y bibliotecas de software pueden reutilizarse en múltiples proyectos, acelerando el desarrollo y mejorando la confiabilidad (Pressman &amp; Maxim, 2020).&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Interactividad multimodal:&lt;/strong&gt; Permite comunicación mediante interfaces gráficas, comandos de voz, gestos táctiles y realidad aumentada, adaptándose a diversos contextos de uso (Norman, 2020).&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Capacidad de aprendizaje:&lt;/strong&gt; Los sistemas modernos incorporan algoritmos de aprendizaje automático que les permiten mejorar su desempeño con el tiempo basándose en datos de uso (Goodfellow et al., 2020).&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Conectividad e integración:&lt;/strong&gt; El software contemporáneo está diseñado para interoperar con otros sistemas mediante APIs, microservicios y protocolos estandarizados (Richardson, 2020).&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;!-- Acordeón 3: Funciones --&gt;\n&lt;div class=\"acordeon-item\"&gt;\n&lt;div class=\"acordeon-header\" onclick=\"toggleAcordeon(this)\"&gt;\n&lt;h3&gt;○ Funciones del Software&lt;/h3&gt;\n&lt;span class=\"acordeon-icon\"&gt;▼&lt;/span&gt;&lt;/div&gt;\n&lt;div class=\"acordeon-content\"&gt;\n&lt;div class=\"acordeon-body\"&gt;\n&lt;p&gt;El software desempeña funciones críticas que permiten el funcionamiento eficiente de los sistemas computacionales y la realización de actividades complejas (Tanenbaum &amp; Bos, 2020):&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Gestión de recursos computacionales:&lt;/strong&gt; Administra la memoria RAM, el procesador, los dispositivos de entrada/salida y el almacenamiento mediante algoritmos de planificación y asignación optimizados (Silberschatz et al., 2021).&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Facilitación de la interacción persona-sistema:&lt;/strong&gt; Proporciona interfaces intuitivas, accesibles e inclusivas que permiten la operación efectiva sin requerir conocimientos técnicos especializados (Norman, 2020).&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Procesamiento y análisis de datos:&lt;/strong&gt; Transforma información mediante algoritmos que van desde operaciones aritméticas simples hasta análisis predictivos basados en inteligencia artificial (Goodfellow et al., 2020).&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Automatización de procesos:&lt;/strong&gt; Ejecuta tareas repetitivas, flujos de trabajo complejos y operaciones programadas sin intervención manual, aumentando la eficiencia organizacional (Ebert et al., 2021).&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Seguridad y protección de información:&lt;/strong&gt; Implementa mecanismos de autenticación multifactor, cifrado de datos, detección de amenazas y cumplimiento normativo para proteger activos digitales (Stallings &amp; Brown, 2023).&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Comunicación y colaboración:&lt;/strong&gt; Facilita la interconexión entre personas y sistemas mediante plataformas de mensajería, videoconferencia, gestión de proyectos y espacios de trabajo compartidos (Richardson, 2020).&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Optimización continua del rendimiento:&lt;/strong&gt; Monitorea el comportamiento del sistema, identifica cuellos de botella y ajusta parámetros para maximizar la eficiencia energética y computacional (Bass et al., 2021).&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Personalización de experiencias:&lt;/strong&gt; Adapta interfaces, recomendaciones y funcionalidades según preferencias individuales y patrones de comportamiento detectados (Norman, 2020).&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;!-- Acordeón 4: Tipos de Software --&gt;\n&lt;div class=\"acordeon-item\"&gt;\n&lt;div class=\"acordeon-header\" onclick=\"toggleAcordeon(this)\"&gt;\n&lt;h3&gt;○ Tipos de Software&lt;/h3&gt;\n&lt;span class=\"acordeon-icon\"&gt;▼&lt;/span&gt;&lt;/div&gt;\n&lt;div class=\"acordeon-content\"&gt;\n&lt;div class=\"acordeon-body\"&gt;\n&lt;p&gt;El software se clasifica según su función, arquitectura y modelo de distribución, reflejando la diversidad de necesidades en el ecosistema tecnológico actual (Pressman &amp; Maxim, 2020; Sommerville, 2020):&lt;/p&gt;\n&lt;div class=\"tipo-software\"&gt;\n&lt;h4&gt;1. Software de Sistema&lt;/h4&gt;\n&lt;p&gt;Conjunto de programas fundamentales que gestionan los recursos del hardware y proporcionan servicios básicos para otros programas. Incluye sistemas operativos (Windows 11, macOS Sonoma, Ubuntu 24.04, Android 14, iOS 17), hipervisores de virtualización (VMware, Hyper-V) y firmware que controla dispositivos específicos (Tanenbaum &amp; Bos, 2020). Los sistemas operativos modernos incorporan contenedores, gestión energética avanzada y seguridad basada en hardware (Silberschatz et al., 2021).&lt;/p&gt;\n&lt;/div&gt;\n&lt;div class=\"tipo-software\"&gt;\n&lt;h4&gt;2. Software de Aplicación&lt;/h4&gt;\n&lt;p&gt;Programas diseñados para realizar tareas específicas orientadas a personas usuarias finales. Ejemplos incluyen suites ofimáticas (Microsoft 365, Google Workspace), navegadores web (Chrome, Firefox, Edge), herramientas de diseño (Figma, Adobe Creative Cloud), plataformas de comunicación (Zoom, Microsoft Teams) y aplicaciones de productividad personal (Notion, Trello) (Ebert et al., 2021). Las aplicaciones contemporáneas priorizan la accesibilidad, la compatibilidad multiplataforma y la sincronización en la nube (Bass et al., 2021).&lt;/p&gt;\n&lt;/div&gt;\n&lt;div class=\"tipo-software\"&gt;\n&lt;h4&gt;3. Software Utilitario&lt;/h4&gt;\n&lt;p&gt;Herramientas especializadas para mantenimiento, optimización, seguridad y diagnóstico de sistemas. Incluye antivirus de nueva generación (Microsoft Defender, Malwarebytes), administradores de contraseñas (Bitwarden, 1Password), herramientas de respaldo automático (Acronis, Veeam), optimizadores de rendimiento y utilidades de recuperación de datos (Stallings &amp; Brown, 2023). Los utilitarios modernos incorporan detección basada en comportamiento y respuesta automatizada a amenazas (Silberschatz et al., 2021).&lt;/p&gt;\n&lt;/div&gt;\n&lt;div class=\"tipo-software\"&gt;\n&lt;h4&gt;4. Software de Desarrollo&lt;/h4&gt;\n&lt;p&gt;Conjunto de herramientas utilizadas para crear, probar, depurar y mantener aplicaciones. Comprende entornos de desarrollo integrados (Visual Studio Code, JetBrains IntelliJ), lenguajes de programación (Python, JavaScript, Rust, Go), sistemas de control de versiones (Git, GitHub), frameworks (React, Flutter, Django) y plataformas de integración continua (Jenkins, GitLab CI/CD) (Pressman &amp; Maxim, 2020). El desarrollo moderno enfatiza la colaboración, la automatización y las prácticas DevOps (Ebert et al., 2021).&lt;/p&gt;\n&lt;/div&gt;\n&lt;div class=\"tipo-software\"&gt;\n&lt;h4&gt;5. Software como Servicio (SaaS)&lt;/h4&gt;\n&lt;p&gt;Aplicaciones distribuidas mediante Internet que se ejecutan en servidores remotos, eliminando la necesidad de instalación local y permitiendo acceso desde cualquier dispositivo con conectividad. Ejemplos incluyen plataformas educativas (Moodle, Canvas), herramientas de diseño colaborativo (Canva, Figma), sistemas de gestión empresarial (Salesforce, SAP S/4HANA Cloud) y servicios de almacenamiento (Google Drive, Dropbox) (Armbrust et al., 2020). Este modelo ofrece actualizaciones automáticas, escalabilidad elástica y modelo de pago por uso (Richardson, 2020).&lt;/p&gt;\n&lt;/div&gt;\n&lt;div class=\"tipo-software\"&gt;\n&lt;h4&gt;6. Software de Inteligencia Artificial y Aprendizaje Automático&lt;/h4&gt;\n&lt;p&gt;Sistemas que utilizan algoritmos de aprendizaje profundo, procesamiento de lenguaje natural y visión por computadora para realizar tareas cognitivas complejas. Incluye asistentes virtuales (Siri, Google Assistant), sistemas de recomendación (Netflix, Spotify), herramientas de generación de contenido (ChatGPT, DALL-E) y plataformas de análisis predictivo (TensorFlow, PyTorch) (Goodfellow et al., 2020). Estos sistemas aprenden de datos históricos y mejoran continuamente su precisión y capacidad de generalización (Russell &amp; Norvig, 2021).&lt;/p&gt;\n&lt;/div&gt;\n&lt;div class=\"tipo-software\"&gt;\n&lt;h4&gt;7. Software de Código Abierto&lt;/h4&gt;\n&lt;p&gt;Programas cuyo código fuente es públicamente accesible, permitiendo su estudio, modificación y distribución libre. Ejemplos destacados incluyen Linux, WordPress, LibreOffice, PostgreSQL y Blender. Este modelo fomenta la colaboración global, la transparencia y la innovación comunitaria (Raymond, 2020). Las organizaciones adoptan cada vez más software de código abierto por su flexibilidad, ausencia de licencias restrictivas y rápida evolución impulsada por comunidades activas (Ebert et al., 2021).&lt;/p&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;p&gt;\n&lt;script&gt;\n    function toggleAcordeon(header) {\n        const content = header.nextElementSibling;\n        const icon = header.querySelector('.acordeon-icon');\n        \n        // Cerrar otros acordeones\n        document.querySelectorAll('.acordeon-content').forEach(item =&gt; {\n            if (item !== content) {\n                item.classList.remove('active');\n            }\n        });\n        document.querySelectorAll('.acordeon-icon').forEach(item =&gt; {\n            if (item !== icon) {\n                item.classList.remove('active');\n            }\n        });\n        \n        // Toggle del acordeón actual\n        content.classList.toggle('active');\n        icon.classList.toggle('active');\n    }\n&lt;/script&gt;\n&lt;/p&gt;","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}</jsonProperties><odeComponentsOrder>1</odeComponentsOrder><odeComponentsProperties><odeComponentsProperty><key>visibility</key><value>true</value></odeComponentsProperty><odeComponentsProperty><key>teacherOnly</key><value>false</value></odeComponentsProperty><odeComponentsProperty><key>identifier</key><value/></odeComponentsProperty><odeComponentsProperty><key>cssClass</key><value/></odeComponentsProperty></odeComponentsProperties></odeComponent></odeComponents></odePagStructure><odePagStructure><odePageId>20251201153404GWIYTD</odePageId><odeBlockId>20251201153404CXUEYI</odeBlockId><blockName>Actividad</blockName><iconName>edit_note</iconName><odePagStructureOrder>2</odePagStructureOrder><odePagStructureProperties><odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>identifier</key><value/></odePagStructureProperty><odePagStructureProperty><key>cssClass</key><value/></odePagStructureProperty></odePagStructureProperties><odeComponents><odeComponent><odePageId>20251201153404GWIYTD</odePageId><odeBlockId>20251201153404CXUEYI</odeBlockId><odeIdeviceId>20251120204206210TQY</odeIdeviceId><odeIdeviceTypeName>text</odeIdeviceTypeName><htmlView>&lt;div class="exe-text-template"&gt;&lt;div class="textIdeviceContent"&gt;
+            &lt;div class="exe-text-activity"&gt;
+                &lt;div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;style&gt;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            overflow: hidden;
+            animation: fadeIn 0.6s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 30px;
+            text-align: center;
+            color: white;
+            animation: slideDown 0.8s ease-out;
+        }
+
+        @keyframes slideDown {
+            from {
+                transform: translateY(-100%);
+            }
+            to {
+                transform: translateY(0);
+            }
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+
+        .header p {
+            font-size: 1.2em;
+            font-weight: 300;
+            opacity: 0.95;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .instructions {
+            background: linear-gradient(135deg, #7c3aed 0%, #a855f7 100%);
+            color: white;
+            padding: 20px 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 15px rgba(124, 58, 237, 0.3);
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.02);
+            }
+        }
+
+        .instructions h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .instructions h2::before {
+         
+            font-size: 1.2em;
+        }
+
+        .instructions p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            opacity: 0.95;
+        }
+
+        .activity-frame {
+            border: 3px solid #7c3aed;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 8px 20px rgba(124, 58, 237, 0.2);
+            animation: fadeInUp 1s ease-out;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        iframe {
+            display: block;
+            border: none;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.8em;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+
+            .instructions {
+                padding: 15px 20px;
+            }
+
+            iframe {
+                width: 100% !important;
+                height: 400px !important;
+            }
+        }
+    &lt;/style&gt;
+&lt;div class="container"&gt;
+&lt;div class="header"&gt;
+&lt;h1&gt;Actividad 1&lt;/h1&gt;
+&lt;/div&gt;
+&lt;div class="content"&gt;
+&lt;div class="instructions"&gt;
+&lt;h2 style="text-align: left;"&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Lee las instrucciones&lt;/h2&gt;
+&lt;p&gt;Completa la actividad interactiva a continuación siguiendo las indicaciones que se presentan en pantalla.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="activity-frame"&gt;&lt;iframe width="914" height="350" src="{{context_path}}/20251120204206210TQY/actividad1._1.html"&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p class="clearfix"&gt;&lt;/p&gt;&lt;/div&gt;
+            &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</htmlView><jsonProperties>{"ideviceId":"20251120204206210TQY","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"&lt;p&gt;&lt;br /&gt;&lt;/p&gt;\n&lt;style&gt;\n        * {\n            margin: 0;\n            padding: 0;\n            box-sizing: border-box;\n        }\n\n        body {\n            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\n            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);\n            padding: 20px;\n            min-height: 100vh;\n        }\n\n        .container {\n            max-width: 1000px;\n            margin: 0 auto;\n            background: white;\n            border-radius: 15px;\n            box-shadow: 0 10px 30px rgba(0,0,0,0.1);\n            overflow: hidden;\n            animation: fadeIn 0.6s ease-in;\n        }\n\n        @keyframes fadeIn {\n            from {\n                opacity: 0;\n                transform: translateY(20px);\n            }\n            to {\n                opacity: 1;\n                transform: translateY(0);\n            }\n        }\n\n        .header {\n            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);\n            padding: 30px;\n            text-align: center;\n            color: white;\n            animation: slideDown 0.8s ease-out;\n        }\n\n        @keyframes slideDown {\n            from {\n                transform: translateY(-100%);\n            }\n            to {\n                transform: translateY(0);\n            }\n        }\n\n        .header h1 {\n            font-size: 2.5em;\n            margin-bottom: 10px;\n            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);\n        }\n\n        .header p {\n            font-size: 1.2em;\n            font-weight: 300;\n            opacity: 0.95;\n        }\n\n        .content {\n            padding: 40px;\n        }\n\n        .instructions {\n            background: linear-gradient(135deg, #7c3aed 0%, #a855f7 100%);\n            color: white;\n            padding: 20px 30px;\n            border-radius: 10px;\n            margin-bottom: 30px;\n            box-shadow: 0 5px 15px rgba(124, 58, 237, 0.3);\n            animation: pulse 2s ease-in-out infinite;\n        }\n\n        @keyframes pulse {\n            0%, 100% {\n                transform: scale(1);\n            }\n            50% {\n                transform: scale(1.02);\n            }\n        }\n\n        .instructions h2 {\n            font-size: 1.5em;\n            margin-bottom: 10px;\n            display: flex;\n            align-items: center;\n            gap: 10px;\n        }\n\n        .instructions h2::before {\n         \n            font-size: 1.2em;\n        }\n\n        .instructions p {\n            font-size: 1.1em;\n            line-height: 1.6;\n            opacity: 0.95;\n        }\n\n        .activity-frame {\n            border: 3px solid #7c3aed;\n            border-radius: 10px;\n            overflow: hidden;\n            box-shadow: 0 8px 20px rgba(124, 58, 237, 0.2);\n            animation: fadeInUp 1s ease-out;\n        }\n\n        @keyframes fadeInUp {\n            from {\n                opacity: 0;\n                transform: translateY(30px);\n            }\n            to {\n                opacity: 1;\n                transform: translateY(0);\n            }\n        }\n\n        iframe {\n            display: block;\n            border: none;\n        }\n\n        @media (max-width: 768px) {\n            .header h1 {\n                font-size: 1.8em;\n            }\n            \n            .content {\n                padding: 20px;\n            }\n\n            .instructions {\n                padding: 15px 20px;\n            }\n\n            iframe {\n                width: 100% !important;\n                height: 400px !important;\n            }\n        }\n    &lt;/style&gt;\n&lt;div class=\"container\"&gt;\n&lt;div class=\"header\"&gt;\n&lt;h1&gt;Actividad 1&lt;/h1&gt;\n&lt;/div&gt;\n&lt;div class=\"content\"&gt;\n&lt;div class=\"instructions\"&gt;\n&lt;h2 style=\"text-align: left;\"&gt;                                 Lee las instrucciones&lt;/h2&gt;\n&lt;p&gt;Completa la actividad interactiva a continuación siguiendo las indicaciones que se presentan en pantalla.&lt;/p&gt;\n&lt;/div&gt;\n&lt;div class=\"activity-frame\"&gt;&lt;iframe width=\"914\" height=\"350\" src=\"{{context_path}}/20251120204206210TQY/actividad1._1.html\"&gt;&lt;/iframe&gt;&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}</jsonProperties><odeComponentsOrder>1</odeComponentsOrder><odeComponentsProperties><odeComponentsProperty><key>visibility</key><value>true</value></odeComponentsProperty><odeComponentsProperty><key>teacherOnly</key><value>false</value></odeComponentsProperty><odeComponentsProperty><key>identifier</key><value/></odeComponentsProperty><odeComponentsProperty><key>cssClass</key><value/></odeComponentsProperty></odeComponentsProperties></odeComponent></odeComponents></odePagStructure><odePagStructure><odePageId>20251201153404GWIYTD</odePageId><odeBlockId>20251201153404VNRCNP</odeBlockId><blockName>Actividad</blockName><iconName>edit_note</iconName><odePagStructureOrder>3</odePagStructureOrder><odePagStructureProperties><odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>identifier</key><value/></odePagStructureProperty><odePagStructureProperty><key>cssClass</key><value/></odePagStructureProperty></odePagStructureProperties><odeComponents><odeComponent><odePageId>20251201153404GWIYTD</odePageId><odeBlockId>20251201153404VNRCNP</odeBlockId><odeIdeviceId>20251125200242942O9K</odeIdeviceId><odeIdeviceTypeName>text</odeIdeviceTypeName><htmlView>&lt;div class="exe-text-template"&gt;&lt;div class="textIdeviceContent"&gt;
+            &lt;div class="exe-text-activity"&gt;
+                &lt;div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;style&gt;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1300px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            overflow: hidden;
+            animation: fadeIn 0.6s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 30px;
+            text-align: center;
+            color: white;
+            animation: slideDown 0.8s ease-out;
+        }
+
+        @keyframes slideDown {
+            from {
+                transform: translateY(-100%);
+            }
+            to {
+                transform: translateY(0);
+            }
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+
+        .header p {
+            font-size: 1.2em;
+            font-weight: 300;
+            opacity: 0.95;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .instructions {
+            background: linear-gradient(135deg, #7c3aed 0%, #a855f7 100%);
+            color: white;
+            padding: 20px 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 15px rgba(124, 58, 237, 0.3);
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.02);
+            }
+        }
+
+        .instructions h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .instructions h2::before {
+            content: "🎴";
+            font-size: 1.2em;
+        }
+
+        .instructions p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            opacity: 0.95;
+        }
+
+        .activity-frame {
+            border: 3px solid #7c3aed;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 8px 20px rgba(124, 58, 237, 0.2);
+            animation: fadeInUp 1s ease-out;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        iframe {
+            display: block;
+            border: none;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.8em;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+
+            .instructions {
+                padding: 15px 20px;
+            }
+
+            iframe {
+                width: 100% !important;
+                height: 600px !important;
+            }
+        }
+    &lt;/style&gt;
+&lt;div class="container"&gt;
+&lt;div class="header"&gt;
+&lt;h1&gt;Actividad 2&lt;/h1&gt;
+&lt;p&gt;Empareja conceptos y ejemplos&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="content"&gt;
+&lt;div class="instructions"&gt;
+&lt;h2&gt;Lee las instrucciones&lt;/h2&gt;
+&lt;p&gt;Haz clic en las tarjetas para encontrar los pares correctos: concepto + ejemplo.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="activity-frame"&gt;&lt;iframe width="1200" height="900" style="border: none; overflow: hidden;" src="{{context_path}}/20251125200242942O9K/actividad2..html"&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p class="clearfix"&gt;&lt;/p&gt;&lt;/div&gt;
+            &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</htmlView><jsonProperties>{"ideviceId":"20251125200242942O9K","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"&lt;p&gt;&lt;br /&gt;&lt;/p&gt;\n&lt;style&gt;\n        * {\n            margin: 0;\n            padding: 0;\n            box-sizing: border-box;\n        }\n\n        body {\n            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\n            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);\n            padding: 20px;\n            min-height: 100vh;\n        }\n\n        .container {\n            max-width: 1300px;\n            margin: 0 auto;\n            background: white;\n            border-radius: 15px;\n            box-shadow: 0 10px 30px rgba(0,0,0,0.1);\n            overflow: hidden;\n            animation: fadeIn 0.6s ease-in;\n        }\n\n        @keyframes fadeIn {\n            from {\n                opacity: 0;\n                transform: translateY(20px);\n            }\n            to {\n                opacity: 1;\n                transform: translateY(0);\n            }\n        }\n\n        .header {\n            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);\n            padding: 30px;\n            text-align: center;\n            color: white;\n            animation: slideDown 0.8s ease-out;\n        }\n\n        @keyframes slideDown {\n            from {\n                transform: translateY(-100%);\n            }\n            to {\n                transform: translateY(0);\n            }\n        }\n\n        .header h1 {\n            font-size: 2.5em;\n            margin-bottom: 10px;\n            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);\n        }\n\n        .header p {\n            font-size: 1.2em;\n            font-weight: 300;\n            opacity: 0.95;\n        }\n\n        .content {\n            padding: 40px;\n        }\n\n        .instructions {\n            background: linear-gradient(135deg, #7c3aed 0%, #a855f7 100%);\n            color: white;\n            padding: 20px 30px;\n            border-radius: 10px;\n            margin-bottom: 30px;\n            box-shadow: 0 5px 15px rgba(124, 58, 237, 0.3);\n            animation: pulse 2s ease-in-out infinite;\n        }\n\n        @keyframes pulse {\n            0%, 100% {\n                transform: scale(1);\n            }\n            50% {\n                transform: scale(1.02);\n            }\n        }\n\n        .instructions h2 {\n            font-size: 1.5em;\n            margin-bottom: 10px;\n            display: flex;\n            align-items: center;\n            gap: 10px;\n        }\n\n        .instructions h2::before {\n            content: \"🎴\";\n            font-size: 1.2em;\n        }\n\n        .instructions p {\n            font-size: 1.1em;\n            line-height: 1.6;\n            opacity: 0.95;\n        }\n\n        .activity-frame {\n            border: 3px solid #7c3aed;\n            border-radius: 10px;\n            overflow: hidden;\n            box-shadow: 0 8px 20px rgba(124, 58, 237, 0.2);\n            animation: fadeInUp 1s ease-out;\n        }\n\n        @keyframes fadeInUp {\n            from {\n                opacity: 0;\n                transform: translateY(30px);\n            }\n            to {\n                opacity: 1;\n                transform: translateY(0);\n            }\n        }\n\n        iframe {\n            display: block;\n            border: none;\n        }\n\n        @media (max-width: 768px) {\n            .header h1 {\n                font-size: 1.8em;\n            }\n            \n            .content {\n                padding: 20px;\n            }\n\n            .instructions {\n                padding: 15px 20px;\n            }\n\n            iframe {\n                width: 100% !important;\n                height: 600px !important;\n            }\n        }\n    &lt;/style&gt;\n&lt;div class=\"container\"&gt;\n&lt;div class=\"header\"&gt;\n&lt;h1&gt;Actividad 2&lt;/h1&gt;\n&lt;p&gt;Empareja conceptos y ejemplos&lt;/p&gt;\n&lt;/div&gt;\n&lt;div class=\"content\"&gt;\n&lt;div class=\"instructions\"&gt;\n&lt;h2&gt;Lee las instrucciones&lt;/h2&gt;\n&lt;p&gt;Haz clic en las tarjetas para encontrar los pares correctos: concepto + ejemplo.&lt;/p&gt;\n&lt;/div&gt;\n&lt;div class=\"activity-frame\"&gt;&lt;iframe width=\"1200\" height=\"900\" style=\"border: none; overflow: hidden;\" src=\"{{context_path}}/20251125200242942O9K/actividad2..html\"&gt;&lt;/iframe&gt;&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}</jsonProperties><odeComponentsOrder>1</odeComponentsOrder><odeComponentsProperties><odeComponentsProperty><key>visibility</key><value>true</value></odeComponentsProperty><odeComponentsProperty><key>teacherOnly</key><value>false</value></odeComponentsProperty><odeComponentsProperty><key>identifier</key><value/></odeComponentsProperty><odeComponentsProperty><key>cssClass</key><value/></odeComponentsProperty></odeComponentsProperties></odeComponent></odeComponents></odePagStructure><odePagStructure><odePageId>20251201153404GWIYTD</odePageId><odeBlockId>20251201153404MTHJXT</odeBlockId><blockName>Evaluación</blockName><iconName>checklist_rtl</iconName><odePagStructureOrder>4</odePagStructureOrder><odePagStructureProperties><odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>identifier</key><value/></odePagStructureProperty><odePagStructureProperty><key>cssClass</key><value/></odePagStructureProperty></odePagStructureProperties><odeComponents><odeComponent><odePageId>20251201153404GWIYTD</odePageId><odeBlockId>20251201153404MTHJXT</odeBlockId><odeIdeviceId>20251111224215191KZI</odeIdeviceId><odeIdeviceTypeName>form</odeIdeviceTypeName><htmlView>&lt;div class="exe-form-container"&gt;&lt;div class="game-evaluation-ids js-hidden" data-id="20251111224215191KZI" data-evaluationb="false" data-evaluationid="20251111193026YVTJCR"&gt;&lt;/div&gt;
+
+            &lt;div id="frmMainContainer-20251111224215191KZI" class="form-IDevice" data-id="20251111224215191KZI"&gt;
+                &lt;div class="form-Data js-hidden"&gt;{}&lt;/div&gt;
+                &lt;div class="form-instructions"&gt;&lt;p&gt;&lt;strong&gt;Instrucciones generales:&lt;br /&gt;&lt;/strong&gt;Lee atentamente cada una de las preguntas antes de responder. Selecciona o escribe la respuesta correcta según el tipo de ítem ¡Mucho éxito!&lt;/p&gt;&lt;/div&gt;
+                &lt;div class="FRMP-GameScoreBoard" style="display:none;"&gt;
+                    &lt;div&gt;
+                        &lt;strong&gt;&lt;span class="sr-av"&gt;Tiempo por pregunta:&lt;/span&gt;&lt;/strong&gt;
+                        &lt;span id="frmPTime-20251111224215191KZI"&gt;00:00&lt;/span&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class="FRMP-StartGame" id="frmStartGameDiv-20251111224215191KZI" style="display:none;"&gt;
+                      &lt;button  id="frmStartGame-20251111224215191KZI" type="button" class="btn btn-primary"&gt;Pulse aquí para empezar&lt;/button&gt;
+                &lt;/div&gt;
+                &lt;div class="form-body" id="frmBody-20251111224215191KZI" style="display:block;"&gt;
+                    &lt;div class="FRMP-Questions"&gt;
+                        &lt;div id="form-questions-20251111224215191KZI" &gt; &lt;/div&gt;
+                        &lt;div id="frmCover-20251111224215191KZI" class="FRMP-Cover"&gt; &lt;/div&gt;
+                    &lt;/div&gt;
+                    
+                    &lt;div id="resultsContainer-20251111224215191KZI" class="form-results-container inline"&gt;
+                        &lt;div id="form-score-20251111224215191KZI" class="score-text"&gt;Puntuación.&lt;/div&gt;
+                        &lt;div id="form-result-test-20251111224215191KZI" class="score-text phrase-score"&gt;&lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class="form-buttons-container inline"&gt;
+                        &lt;input id="form-button-check-20251111224215191KZI" class="btn btn-primary" type="button" value="Comprobar"
+                            data-id="20251111224215191KZI" data-pass-rate="" /&gt;
+                        &lt;input id="form-button-reset-20251111224215191KZI" type="button" value="Reiniciar"
+                            data-id="20251111224215191KZI" class="btn btn-primary"  style="display:none" /&gt;
+                        &lt;input id="form-button-show-answers-20251111224215191KZI" class="btn btn-primary" type="button" value="Mostrar respuestas"
+                            data-id="20251111224215191KZI" style="display: " /&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class="Games-BottonContainer"&gt;
+                    &lt;div class="Games-GetScore"&gt;
+                        &lt;input id="frmPSendScore-20251111224215191KZI" type="button" value="Guardar la puntuación" class="feedbackbutton Games-SendScore" style="display:none"/&gt; &lt;span class="Games-RepeatActivity"&gt;&lt;/span&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class="form-instructions"&gt;&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="questionsMedia" style="display:none"&gt;&lt;/div&gt;
+            
+            &lt;/div&gt;</htmlView><jsonProperties>{"ideviceId":"20251111224215191KZI","evaluation":false,"evaluationID":"20251111193026YVTJCR","repeatActivity":true,"isScorm":0,"textButtonScorm":"Guardar la puntuación","weighted":100,"msgs":{"msgScoreScorm":"La puntuación no se puede guardar porque esta página no forma parte  de un paquete SCORM.","msgYouScore":"Tu puntuación es","msgScore":"Puntuación","msgWeight":"Weight","msgYouLastScore":"La última puntuación guardada es","msgOnlySaveScore":"¡Solo puede guardar la puntuación una vez!","msgOnlySave":"Solo puede guardar una vez","msgOnlySaveAuto":"Su puntuación se guardará después de cada pregunta. Solo puede jugar una vez.","msgSaveAuto":"Su puntuación se guardará automáticamente después de cada pregunta.","msgSeveralScore":"Puede guardar la puntuación tantas veces como quiera","msgPlaySeveralTimes":"Puede realizar esta actividad cuantas veces quiera","msgActityComply":"Ya ha realizado esta actividad.","msgUncompletedActivity":"Actividad no completada","msgSuccessfulActivity":"Actividad superada. Puntuación: %s","msgUnsuccessfulActivity":"Actividad no superada. Puntuación: %s","msgTypeGame":"Formulario","msgStartGame":"Pulse aquí para empezar","msgTime":"Tiempo por pregunta","msgSaveScore":"Guardar la puntuación","msgResult":"Resultado","msgCheck":"Comprobar","msgReset":"Reiniciar","msgShowAnswers":"Mostrar respuestas","msgTestResultPass":"¡Felicidades! Has pasado la prueba","msgTestResultNotPass":"Lo siento. Has fallado la prueba","msgTrueFalseHelp":"Di si la afirmación es verdadera o falsa","msgDropdownHelp":"Elige la respuesta correcta entre las opciones propuestas","msgFillHelp":"Rellena los espacios en blanco con la palabra apropiada","msgSingleSelectionHelp":"Opción múltiple con solo una respuesta correcta","msgMultipleSelectionHelp":"Opción múltiple con varias respuestas correctas","msgPlayStart":"Pulse aquí para empezar","msgTrue":"Verdadero","msgFalse":"Falso","msgNext":"Siguiente","msgPrevious":"Anterior"},"id":"20251111224215191KZI","questionsRandom":false,"percentageQuestions":"100","time":"0","eXeFormInstructions":"&lt;p&gt;&lt;strong&gt;Instrucciones generales:&lt;br /&gt;&lt;/strong&gt;Lee atentamente cada una de las preguntas antes de responder. Selecciona o escribe la respuesta correcta según el tipo de ítem ¡Mucho éxito!&lt;/p&gt;","questionsData":[{"activityType":"selection","selectionType":"multiple","baseText":"&lt;p&gt;&lt;strong&gt;1. ¿Cuál es la principal función del sistema operativo?&lt;/strong&gt;&lt;/p&gt;","answers":[[false,"Reproducir videos"],[true,"Administrar el hardware y permitir el uso del equipo"],[false,"Editar documentos"],[false,"Crear animaciones"]]},{"activityType":"true-false","baseText":"&lt;p&gt;&lt;strong&gt;2. Los antivirus son un ejemplo de software de sistema.&lt;/strong&gt;&lt;/p&gt;","answer":"0"},{"activityType":"selection","selectionType":"single","baseText":"&lt;p&gt;&lt;strong&gt;3. ¿¿Qué característica distingue al software?&lt;/strong&gt;&lt;/p&gt;","answers":[[false,"Es un componente físico"],[false,"Es tangible"],[true,"Es intangible y consiste en instrucciones"],[false,"Solo funciona en Internet"]]},{"activityType":"selection","selectionType":"single","baseText":"&lt;p&gt;&lt;strong&gt;4. ¿Cuál de las siguientes afirmaciones describe de forma más precisa la relación entre software y hardware dentro de un sistema informático?&lt;/strong&gt;&lt;/p&gt;","answers":[[false,"El software es independiente del hardware y puede ejecutarse sin necesidad de él."],[false,"\nEl hardware interpreta directamente las instrucciones del software sin intermediarios."],[true,"El software actúa como intermediario que indica al hardware cómo operar y qué tareas ejecutar."],[false,"El hardware controla la estructura interna del software para garantizar su funcionamiento."]]}],"passRate":5,"addBtnAnswers":true,"eXeIdeviceTextAfter":"","showSlider":false}</jsonProperties><odeComponentsOrder>1</odeComponentsOrder><odeComponentsProperties><odeComponentsProperty><key>visibility</key><value>true</value></odeComponentsProperty><odeComponentsProperty><key>teacherOnly</key><value>false</value></odeComponentsProperty><odeComponentsProperty><key>identifier</key><value/></odeComponentsProperty><odeComponentsProperty><key>cssClass</key><value/></odeComponentsProperty></odeComponentsProperties></odeComponent></odeComponents></odePagStructure></odePagStructures></odeNavStructure><odeNavStructure><odePageId>20251201153404SREQOA</odePageId><odeParentPageId/><pageName>👥Créditos del recurso</pageName><odeNavStructureOrder>4</odeNavStructureOrder><odeNavStructureProperties><odeNavStructureProperty><key>titlePage</key><value>👥Créditos del recurso</value></odeNavStructureProperty></odeNavStructureProperties><odePagStructures><odePagStructure><odePageId>20251201153404SREQOA</odePageId><odeBlockId>20251201153404PMCLVU</odeBlockId><blockName/><iconName>pairs</iconName><odePagStructureOrder>24</odePagStructureOrder><odePagStructureProperties><odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>identifier</key><value/></odePagStructureProperty><odePagStructureProperty><key>cssClass</key><value/></odePagStructureProperty></odePagStructureProperties><odeComponents><odeComponent><odePageId>20251201153404SREQOA</odePageId><odeBlockId>20251201153404PMCLVU</odeBlockId><odeIdeviceId>20251111193026LXTUEA</odeIdeviceId><odeIdeviceTypeName>text</odeIdeviceTypeName><htmlView>&lt;div class="exe-text-template"&gt;&lt;div class="textIdeviceContent"&gt;
+            &lt;div class="exe-text-activity"&gt;
+                &lt;div&gt;&lt;div class="exe-text"&gt;
+&lt;p&gt;&lt;img src="{{context_path}}/20251111193026LXTUEA/379727-PCCEG7-675-Photoroom.png" width="300" height="222" alt="imagen" style="display: block; margin-left: auto; margin-right: auto;"&gt;&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;&lt;em&gt;&lt;strong&gt;Nombre del recurso:&amp;nbsp;&lt;/strong&gt;Informática básica&lt;/em&gt;&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;&lt;em&gt;&lt;strong&gt;Facultad:&amp;nbsp;&lt;/strong&gt;&lt;/em&gt;&lt;em&gt;Facultad de la Educación, el Arte y la Comunicación&lt;/em&gt;&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;&lt;em&gt;&lt;strong&gt;Carrera:&amp;nbsp;&lt;/strong&gt;&lt;/em&gt;&lt;em&gt;Pedagogía de las Ciencias Experimentales - Informática&lt;/em&gt;&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;&lt;em&gt;&lt;strong&gt;Dirigido a:&amp;nbsp;&lt;/strong&gt;&lt;/em&gt;&lt;em&gt;Estudiantes de 14 a 15 años&lt;/em&gt;&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;&lt;em&gt;&lt;strong&gt;Descripción: &lt;/strong&gt;Este recurso educativo digital está diseñado para brindar a los estudiantes una comprensión sólida y estructurada del concepto de software dentro del campo de la informática básica.&lt;/em&gt;&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;&lt;em&gt;&lt;strong&gt;Elaborado por:&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;Ronaldo Lenin Piedra Vega&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;&lt;strong&gt;Institución Educativa:&amp;nbsp;&lt;/strong&gt;&lt;em&gt;Estudiantes de la carrera de Pedagogía de las Ciencias Experimentales - Informática&lt;/em&gt;&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;&lt;em&gt;Universidad Nacional de Loja&lt;/em&gt;&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;&lt;em&gt;&lt;strong&gt;Asesor académico:&amp;nbsp;&lt;/strong&gt;&lt;/em&gt;&lt;em&gt;Lic. Marlon Alexander Maldonado González, Mg. Sc.&lt;/em&gt;&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;&lt;em&gt;&lt;strong&gt;Fecha de elaboración:&amp;nbsp;&lt;/strong&gt;&lt;/em&gt;&lt;em&gt;Noviembre de 2025&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;p class="clearfix"&gt;&lt;/p&gt;&lt;/div&gt;
+            &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</htmlView><jsonProperties>{"ideviceId":"20251111193026LXTUEA","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"&lt;div class=\"exe-text\"&gt;\n&lt;p&gt;&lt;img src=\"{{context_path}}/20251111193026LXTUEA/379727-PCCEG7-675-Photoroom.png\" width=\"300\" height=\"222\" alt=\"imagen\" style=\"display: block; margin-left: auto; margin-right: auto;\" /&gt;&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;&lt;em&gt;&lt;strong&gt;Nombre del recurso: &lt;/strong&gt;Informática básica&lt;/em&gt;&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;&lt;em&gt;&lt;strong&gt;Facultad: &lt;/strong&gt;&lt;/em&gt;&lt;em&gt;Facultad de la Educación, el Arte y la Comunicación&lt;/em&gt;&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;&lt;em&gt;&lt;strong&gt;Carrera: &lt;/strong&gt;&lt;/em&gt;&lt;em&gt;Pedagogía de las Ciencias Experimentales - Informática&lt;/em&gt;&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;&lt;em&gt;&lt;strong&gt;Dirigido a: &lt;/strong&gt;&lt;/em&gt;&lt;em&gt;Estudiantes de 14 a 15 años&lt;/em&gt;&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;&lt;em&gt;&lt;strong&gt;Descripción: &lt;/strong&gt;Este recurso educativo digital está diseñado para brindar a los estudiantes una comprensión sólida y estructurada del concepto de software dentro del campo de la informática básica.&lt;/em&gt;&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;&lt;em&gt;&lt;strong&gt;Elaborado por:&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;Ronaldo Lenin Piedra Vega&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;&lt;strong&gt;Institución Educativa: &lt;/strong&gt;&lt;em&gt;Estudiantes de la carrera de Pedagogía de las Ciencias Experimentales - Informática&lt;/em&gt;&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;&lt;em&gt;Universidad Nacional de Loja&lt;/em&gt;&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;&lt;em&gt;&lt;strong&gt;Asesor académico: &lt;/strong&gt;&lt;/em&gt;&lt;em&gt;Lic. Marlon Alexander Maldonado González, Mg. Sc.&lt;/em&gt;&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;&lt;em&gt;&lt;strong&gt;Fecha de elaboración: &lt;/strong&gt;&lt;/em&gt;&lt;em&gt;Noviembre de 2025&lt;/em&gt;&lt;/p&gt;\n&lt;/div&gt;","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}</jsonProperties><odeComponentsOrder>1</odeComponentsOrder><odeComponentsProperties><odeComponentsProperty><key>visibility</key><value>true</value></odeComponentsProperty><odeComponentsProperty><key>teacherOnly</key><value>false</value></odeComponentsProperty><odeComponentsProperty><key>identifier</key><value/></odeComponentsProperty><odeComponentsProperty><key>cssClass</key><value/></odeComponentsProperty></odeComponentsProperties></odeComponent></odeComponents></odePagStructure></odePagStructures></odeNavStructure><odeNavStructure><odePageId>20251201153404YWZMLI</odePageId><odeParentPageId/><pageName>📘Bibliografía</pageName><odeNavStructureOrder>5</odeNavStructureOrder><odeNavStructureProperties><odeNavStructureProperty><key>titleNode</key><value>📘Bibliografía</value></odeNavStructureProperty><odeNavStructureProperty><key>titleHtml</key><value/></odeNavStructureProperty><odeNavStructureProperty><key>editableInPage</key><value>false</value></odeNavStructureProperty><odeNavStructureProperty><key>titlePage</key><value>📘Bibliografía</value></odeNavStructureProperty><odeNavStructureProperty><key>visibility</key><value>true</value></odeNavStructureProperty><odeNavStructureProperty><key>description</key><value/></odeNavStructureProperty></odeNavStructureProperties><odePagStructures><odePagStructure><odePageId>20251201153404YWZMLI</odePageId><odeBlockId>20251201153404QLEUSH</odeBlockId><blockName>Texto</blockName><iconName/><odePagStructureOrder>1</odePagStructureOrder><odePagStructureProperties><odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>identifier</key><value/></odePagStructureProperty><odePagStructureProperty><key>cssClass</key><value/></odePagStructureProperty></odePagStructureProperties><odeComponents><odeComponent><odePageId>20251201153404YWZMLI</odePageId><odeBlockId>20251201153404QLEUSH</odeBlockId><odeIdeviceId>20251201095350588RJ3</odeIdeviceId><odeIdeviceTypeName>text</odeIdeviceTypeName><htmlView>&lt;div class="exe-text-template"&gt;&lt;div class="textIdeviceContent"&gt;
+            &lt;div class="exe-text-activity"&gt;
+                &lt;div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;style&gt;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 40px 20px;
+            min-height: 100vh;
+        }
+
+        .bibliografia-container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            animation: fadeIn 0.8s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .header {
+            background: linear-gradient(135deg, #5e35b1 0%, #7e57c2 100%);
+            padding: 40px;
+            text-align: center;
+            color: white;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .content {
+            padding: 50px 60px;
+            line-height: 2;
+        }
+
+        .referencia {
+            margin-bottom: 1em;
+            text-align: left;
+            padding-left: 0.5in;
+            text-indent: -0.5in;
+            font-size: 12pt;
+            color: #2d3748;
+        }
+
+        .referencia a {
+            color: #5e35b1;
+            text-decoration: none;
+            word-break: break-all;
+        }
+
+        .referencia a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .content {
+                padding: 30px 25px;
+            }
+
+            .header h1 {
+                font-size: 1.8em;
+            }
+
+            .referencia {
+                font-size: 11pt;
+                padding-left: 0.4in;
+                text-indent: -0.4in;
+            }
+        }
+    &lt;/style&gt;
+&lt;div class="bibliografia-container"&gt;
+&lt;div class="header"&gt;
+&lt;h1&gt;Bibliografía&lt;/h1&gt;
+&lt;/div&gt;
+&lt;div class="content"&gt;
+&lt;div class="referencia"&gt;Armbrust, M., Fox, A., Griffith, R., Joseph, A. D., Katz, R., Konwinski, A., Lee, G., Patterson, D., Rabkin, A., Stoica, I., &amp; Zaharia, M. (2010). A view of cloud computing. &lt;em&gt;Communications of the ACM, 53&lt;/em&gt;(4), 50-58. https://doi.org/10.1145/1721654.1721672&lt;/div&gt;
+&lt;div class="referencia"&gt;Bass, L., Clements, P., &amp; Kazman, R. (2021). &lt;em&gt;Software architecture in practice&lt;/em&gt; (4th ed.). Addison-Wesley Professional.&lt;/div&gt;
+&lt;div class="referencia"&gt;Ebert, C., Gallardo, G., Hernantes, J., &amp; Serrano, N. (2021). DevOps. &lt;em&gt;IEEE Software, 33&lt;/em&gt;(3), 94-100. https://doi.org/10.1109/MS.2016.68&lt;/div&gt;
+&lt;div class="referencia"&gt;Goodfellow, I., Bengio, Y., &amp; Courville, A. (2016). &lt;em&gt;Deep learning&lt;/em&gt;. MIT Press. http://www.deeplearningbook.org&lt;/div&gt;
+&lt;div class="referencia"&gt;Norman, D. A. (2013). &lt;em&gt;The design of everyday things&lt;/em&gt; (Revised and expanded ed.). Basic Books.&lt;/div&gt;
+&lt;div class="referencia"&gt;Pressman, R. S., &amp; Maxim, B. R. (2020). &lt;em&gt;Software engineering: A practitioner's approach&lt;/em&gt; (9th ed.). McGraw-Hill Education.&lt;/div&gt;
+&lt;div class="referencia"&gt;Raymond, E. S. (2001). &lt;em&gt;The cathedral and the bazaar: Musings on Linux and open source by an accidental revolutionary&lt;/em&gt;. O'Reilly Media.&lt;/div&gt;
+&lt;div class="referencia"&gt;Richardson, C. (2018). &lt;em&gt;Microservices patterns: With examples in Java&lt;/em&gt;. Manning Publications.&lt;/div&gt;
+&lt;div class="referencia"&gt;Russell, S., &amp; Norvig, P. (2021). &lt;em&gt;Artificial intelligence: A modern approach&lt;/em&gt; (4th ed.). Pearson.&lt;/div&gt;
+&lt;div class="referencia"&gt;Silberschatz, A., Galvin, P. B., &amp; Gagne, G. (2021). &lt;em&gt;Operating system concepts&lt;/em&gt; (10th ed.). Wiley.&lt;/div&gt;
+&lt;div class="referencia"&gt;Sommerville, I. (2020). &lt;em&gt;Software engineering&lt;/em&gt; (10th ed.). Pearson Education.&lt;/div&gt;
+&lt;div class="referencia"&gt;Stallings, W., &amp; Brown, L. (2023). &lt;em&gt;Computer security: Principles and practice&lt;/em&gt; (5th ed.). Pearson.&lt;/div&gt;
+&lt;div class="referencia"&gt;Tanenbaum, A. S., &amp; Bos, H. (2020). &lt;em&gt;Modern operating systems&lt;/em&gt; (5th ed.). Pearson Education.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p class="clearfix"&gt;&lt;/p&gt;&lt;/div&gt;
+            &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</htmlView><jsonProperties>{"ideviceId":"20251201095350588RJ3","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"&lt;p&gt;&lt;br /&gt;&lt;/p&gt;\n&lt;style&gt;\n        * {\n            margin: 0;\n            padding: 0;\n            box-sizing: border-box;\n        }\n\n        body {\n            font-family: 'Times New Roman', Times, serif;\n            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);\n            padding: 40px 20px;\n            min-height: 100vh;\n        }\n\n        .bibliografia-container {\n            max-width: 900px;\n            margin: 0 auto;\n            background: white;\n            border-radius: 15px;\n            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);\n            overflow: hidden;\n            animation: fadeIn 0.8s ease-out;\n        }\n\n        @keyframes fadeIn {\n            from {\n                opacity: 0;\n                transform: translateY(20px);\n            }\n            to {\n                opacity: 1;\n                transform: translateY(0);\n            }\n        }\n\n        .header {\n            background: linear-gradient(135deg, #5e35b1 0%, #7e57c2 100%);\n            padding: 40px;\n            text-align: center;\n            color: white;\n        }\n\n        .header h1 {\n            font-size: 2.5em;\n            font-weight: bold;\n            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);\n        }\n\n        .content {\n            padding: 50px 60px;\n            line-height: 2;\n        }\n\n        .referencia {\n            margin-bottom: 1em;\n            text-align: left;\n            padding-left: 0.5in;\n            text-indent: -0.5in;\n            font-size: 12pt;\n            color: #2d3748;\n        }\n\n        .referencia a {\n            color: #5e35b1;\n            text-decoration: none;\n            word-break: break-all;\n        }\n\n        .referencia a:hover {\n            text-decoration: underline;\n        }\n\n        @media (max-width: 768px) {\n            .content {\n                padding: 30px 25px;\n            }\n\n            .header h1 {\n                font-size: 1.8em;\n            }\n\n            .referencia {\n                font-size: 11pt;\n                padding-left: 0.4in;\n                text-indent: -0.4in;\n            }\n        }\n    &lt;/style&gt;\n&lt;div class=\"bibliografia-container\"&gt;\n&lt;div class=\"header\"&gt;\n&lt;h1&gt;Bibliografía&lt;/h1&gt;\n&lt;/div&gt;\n&lt;div class=\"content\"&gt;\n&lt;div class=\"referencia\"&gt;Armbrust, M., Fox, A., Griffith, R., Joseph, A. D., Katz, R., Konwinski, A., Lee, G., Patterson, D., Rabkin, A., Stoica, I., &amp; Zaharia, M. (2010). A view of cloud computing. &lt;em&gt;Communications of the ACM, 53&lt;/em&gt;(4), 50-58. https://doi.org/10.1145/1721654.1721672&lt;/div&gt;\n&lt;div class=\"referencia\"&gt;Bass, L., Clements, P., &amp; Kazman, R. (2021). &lt;em&gt;Software architecture in practice&lt;/em&gt; (4th ed.). Addison-Wesley Professional.&lt;/div&gt;\n&lt;div class=\"referencia\"&gt;Ebert, C., Gallardo, G., Hernantes, J., &amp; Serrano, N. (2021). DevOps. &lt;em&gt;IEEE Software, 33&lt;/em&gt;(3), 94-100. https://doi.org/10.1109/MS.2016.68&lt;/div&gt;\n&lt;div class=\"referencia\"&gt;Goodfellow, I., Bengio, Y., &amp; Courville, A. (2016). &lt;em&gt;Deep learning&lt;/em&gt;. MIT Press. http://www.deeplearningbook.org&lt;/div&gt;\n&lt;div class=\"referencia\"&gt;Norman, D. A. (2013). &lt;em&gt;The design of everyday things&lt;/em&gt; (Revised and expanded ed.). Basic Books.&lt;/div&gt;\n&lt;div class=\"referencia\"&gt;Pressman, R. S., &amp; Maxim, B. R. (2020). &lt;em&gt;Software engineering: A practitioner's approach&lt;/em&gt; (9th ed.). McGraw-Hill Education.&lt;/div&gt;\n&lt;div class=\"referencia\"&gt;Raymond, E. S. (2001). &lt;em&gt;The cathedral and the bazaar: Musings on Linux and open source by an accidental revolutionary&lt;/em&gt;. O'Reilly Media.&lt;/div&gt;\n&lt;div class=\"referencia\"&gt;Richardson, C. (2018). &lt;em&gt;Microservices patterns: With examples in Java&lt;/em&gt;. Manning Publications.&lt;/div&gt;\n&lt;div class=\"referencia\"&gt;Russell, S., &amp; Norvig, P. (2021). &lt;em&gt;Artificial intelligence: A modern approach&lt;/em&gt; (4th ed.). Pearson.&lt;/div&gt;\n&lt;div class=\"referencia\"&gt;Silberschatz, A., Galvin, P. B., &amp; Gagne, G. (2021). &lt;em&gt;Operating system concepts&lt;/em&gt; (10th ed.). Wiley.&lt;/div&gt;\n&lt;div class=\"referencia\"&gt;Sommerville, I. (2020). &lt;em&gt;Software engineering&lt;/em&gt; (10th ed.). Pearson Education.&lt;/div&gt;\n&lt;div class=\"referencia\"&gt;Stallings, W., &amp; Brown, L. (2023). &lt;em&gt;Computer security: Principles and practice&lt;/em&gt; (5th ed.). Pearson.&lt;/div&gt;\n&lt;div class=\"referencia\"&gt;Tanenbaum, A. S., &amp; Bos, H. (2020). &lt;em&gt;Modern operating systems&lt;/em&gt; (5th ed.). Pearson Education.&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}</jsonProperties><odeComponentsOrder>1</odeComponentsOrder><odeComponentsProperties><odeComponentsProperty><key>visibility</key><value>true</value></odeComponentsProperty><odeComponentsProperty><key>teacherOnly</key><value>false</value></odeComponentsProperty><odeComponentsProperty><key>identifier</key><value/></odeComponentsProperty><odeComponentsProperty><key>cssClass</key><value/></odeComponentsProperty></odeComponentsProperties></odeComponent></odeComponents></odePagStructure></odePagStructures></odeNavStructure><odeNavStructure><odePageId>20251201153404KLKKOB</odePageId><odeParentPageId/><pageName>📥Descarga recurso</pageName><odeNavStructureOrder>6</odeNavStructureOrder><odeNavStructureProperties><odeNavStructureProperty><key>titleNode</key><value>📥Descarga recurso</value></odeNavStructureProperty><odeNavStructureProperty><key>titleHtml</key><value/></odeNavStructureProperty><odeNavStructureProperty><key>editableInPage</key><value>false</value></odeNavStructureProperty><odeNavStructureProperty><key>titlePage</key><value>📥Descarga recurso</value></odeNavStructureProperty><odeNavStructureProperty><key>visibility</key><value>true</value></odeNavStructureProperty><odeNavStructureProperty><key>description</key><value/></odeNavStructureProperty></odeNavStructureProperties><odePagStructures><odePagStructure><odePageId>20251201153404KLKKOB</odePageId><odeBlockId>20251201153404RYUFVR</odeBlockId><blockName>Descargar el archivo fuente</blockName><iconName/><odePagStructureOrder>1</odePagStructureOrder><odePagStructureProperties><odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>identifier</key><value/></odePagStructureProperty><odePagStructureProperty><key>cssClass</key><value/></odePagStructureProperty></odePagStructureProperties><odeComponents><odeComponent><odePageId>20251201153404KLKKOB</odePageId><odeBlockId>20251201153404RYUFVR</odeBlockId><odeIdeviceId>20251125231858533V83</odeIdeviceId><odeIdeviceTypeName>download-source-file</odeIdeviceTypeName><htmlView>&lt;div class="exe-download-package-instructions"&gt;&lt;table class="exe-table exe-package-info"&gt;&lt;caption&gt;Información general sobre este recurso educativo&lt;/caption&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;th&gt;Título&lt;/th&gt;
+&lt;td&gt;Software&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;Descripción&lt;/th&gt;
+&lt;td&gt;Recurso educativo creado con la finalidad de que los estudiantes que hagan uso de el puedan aprender sobre todo lo que conlleva el software&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;Autoría&lt;/th&gt;
+&lt;td&gt;Ronaldo Piedra&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;Licencia&lt;/th&gt;
+&lt;td&gt;creative commons: attribution - share alike 4.0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p style="text-align: center;"&gt;Este contenido fue creado con &lt;a href="http://exelearning.net/"&gt;eXeLearning&lt;/a&gt;, el editor libre y de fuente abierta diseñado para crear recursos educativos.&lt;/p&gt;&lt;/div&gt;&lt;p class="exe-download-package-link"&gt;&lt;a download="exe-package:elp-name" href="exe-package:elp" style="background-color:#107275;color:#ffffff;"&gt;Descargar el archivo .elpx&lt;/a&gt;&lt;/p&gt;</htmlView><jsonProperties/><odeComponentsOrder>1</odeComponentsOrder><odeComponentsProperties><odeComponentsProperty><key>visibility</key><value>true</value></odeComponentsProperty><odeComponentsProperty><key>teacherOnly</key><value>false</value></odeComponentsProperty><odeComponentsProperty><key>identifier</key><value/></odeComponentsProperty><odeComponentsProperty><key>cssClass</key><value/></odeComponentsProperty></odeComponentsProperties></odeComponent></odeComponents></odePagStructure></odePagStructures></odeNavStructure><odeNavStructure><odePageId>20251201153404VYVUKS</odePageId><odeParentPageId>20251201153404YLBVIT</odeParentPageId><pageName>📝 Menú</pageName><odeNavStructureOrder>1</odeNavStructureOrder><odeNavStructureProperties><odeNavStructureProperty><key>titleNode</key><value>📝 Menú</value></odeNavStructureProperty><odeNavStructureProperty><key>titleHtml</key><value/></odeNavStructureProperty><odeNavStructureProperty><key>editableInPage</key><value>false</value></odeNavStructureProperty><odeNavStructureProperty><key>titlePage</key><value>📝 Menú</value></odeNavStructureProperty><odeNavStructureProperty><key>visibility</key><value>true</value></odeNavStructureProperty><odeNavStructureProperty><key>description</key><value/></odeNavStructureProperty></odeNavStructureProperties><odePagStructures><odePagStructure><odePageId>20251201153404VYVUKS</odePageId><odeBlockId>20251201153404JFWGJG</odeBlockId><blockName>Texto</blockName><iconName/><odePagStructureOrder>1</odePagStructureOrder><odePagStructureProperties><odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>identifier</key><value/></odePagStructureProperty><odePagStructureProperty><key>cssClass</key><value/></odePagStructureProperty></odePagStructureProperties><odeComponents><odeComponent><odePageId>20251201153404VYVUKS</odePageId><odeBlockId>20251201153404JFWGJG</odeBlockId><odeIdeviceId>20251201095807903OHH</odeIdeviceId><odeIdeviceTypeName>text</odeIdeviceTypeName><htmlView>&lt;div class="exe-text-template"&gt;&lt;div class="textIdeviceContent"&gt;
+            &lt;div class="exe-text-activity"&gt;
+                &lt;div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;style&gt;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 40px 20px;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .menu-container {
+            max-width: 500px;
+            width: 100%;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            animation: fadeIn 0.8s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .menu-header {
+            background: linear-gradient(135deg, #5e35b1 0%, #7e57c2 100%);
+            padding: 30px;
+            text-align: center;
+            color: white;
+        }
+
+        .menu-header h1 {
+            font-size: 2em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .menu-items {
+            padding: 20px;
+        }
+
+        .menu-item {
+            background: #f8f9fa;
+            border: 2px solid #e9ecef;
+            border-radius: 10px;
+            padding: 18px 20px;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            animation: slideIn 0.5s ease-out;
+            animation-fill-mode: both;
+        }
+
+        .menu-item:nth-child(1) { animation-delay: 0.1s; }
+        .menu-item:nth-child(2) { animation-delay: 0.2s; }
+        .menu-item:nth-child(3) { animation-delay: 0.3s; }
+        .menu-item:nth-child(4) { animation-delay: 0.4s; }
+        .menu-item:nth-child(5) { animation-delay: 0.5s; }
+        .menu-item:nth-child(6) { animation-delay: 0.6s; }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateX(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .menu-item:hover {
+            background: linear-gradient(135deg, #7c3aed 0%, #a855f7 100%);
+            color: white;
+            transform: translateX(5px);
+            box-shadow: 0 5px 15px rgba(124, 58, 237, 0.3);
+            border-color: #7c3aed;
+        }
+
+        .menu-item.active {
+            background: linear-gradient(135deg, #5e35b1 0%, #7e57c2 100%);
+            color: white;
+            border-color: #5e35b1;
+        }
+
+        .menu-icon {
+            font-size: 1.5em;
+            min-width: 30px;
+            text-align: center;
+        }
+
+        .menu-text {
+            font-size: 1.1em;
+            font-weight: 500;
+        }
+
+        @media (max-width: 768px) {
+            .menu-container {
+                margin: 20px;
+            }
+
+            .menu-header h1 {
+                font-size: 1.5em;
+            }
+
+            .menu-item {
+                padding: 15px 18px;
+            }
+
+            .menu-text {
+                font-size: 1em;
+            }
+        }
+    &lt;/style&gt;
+&lt;div class="menu-container"&gt;
+&lt;div class="menu-header"&gt;
+&lt;h1&gt;Menú&lt;/h1&gt;
+&lt;/div&gt;
+&lt;div class="menu-items"&gt;
+&lt;div class="menu-item active"&gt;&lt;span class="menu-icon"&gt;💻&lt;/span&gt; &lt;a href="exe-node:20251201153404YLBVIT"&gt;&lt;span class="menu-text" id="link_0"&gt;Portada&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="menu-item"&gt;&lt;span class="menu-icon"&gt;🎯&lt;/span&gt; &lt;a href="exe-node:20251201153404KLWPVD"&gt;&lt;span class="menu-text" id="link_1"&gt;Objetivo de aprendizaje&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="menu-item"&gt;&lt;span class="menu-icon"&gt;📚&lt;/span&gt; &lt;a href="exe-node:20251201153404GWIYTD"&gt;&lt;span class="menu-text" id="link_2"&gt;Contenidos&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="menu-item"&gt;&lt;span class="menu-icon"&gt;👥&lt;/span&gt; &lt;a href="exe-node:20251201153404SREQOA"&gt;&lt;span class="menu-text" id="link_3"&gt;Créditos del recurso&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="menu-item"&gt;&lt;span class="menu-icon"&gt;📖&lt;/span&gt; &lt;a href="exe-node:20251201153404YWZMLI"&gt;&lt;span class="menu-text" id="link_4"&gt;Bibliografía&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="menu-item"&gt;&lt;span class="menu-icon"&gt;📥&lt;/span&gt;&lt;a href="exe-node:20251201153404YWZMLI"&gt; &lt;span class="menu-text" id="link_5"&gt;Descarga recurso&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p class="clearfix"&gt;&lt;/p&gt;&lt;/div&gt;
+            &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</htmlView><jsonProperties>{"ideviceId":"20251201095807903OHH","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"&lt;p&gt;&lt;br /&gt;&lt;/p&gt;\n&lt;style&gt;\n        * {\n            margin: 0;\n            padding: 0;\n            box-sizing: border-box;\n        }\n\n        body {\n            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\n            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);\n            padding: 40px 20px;\n            min-height: 100vh;\n            display: flex;\n            justify-content: center;\n            align-items: center;\n        }\n\n        .menu-container {\n            max-width: 500px;\n            width: 100%;\n            background: white;\n            border-radius: 15px;\n            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);\n            overflow: hidden;\n            animation: fadeIn 0.8s ease-out;\n        }\n\n        @keyframes fadeIn {\n            from {\n                opacity: 0;\n                transform: translateY(20px);\n            }\n            to {\n                opacity: 1;\n                transform: translateY(0);\n            }\n        }\n\n        .menu-header {\n            background: linear-gradient(135deg, #5e35b1 0%, #7e57c2 100%);\n            padding: 30px;\n            text-align: center;\n            color: white;\n        }\n\n        .menu-header h1 {\n            font-size: 2em;\n            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);\n        }\n\n        .menu-items {\n            padding: 20px;\n        }\n\n        .menu-item {\n            background: #f8f9fa;\n            border: 2px solid #e9ecef;\n            border-radius: 10px;\n            padding: 18px 20px;\n            margin-bottom: 12px;\n            display: flex;\n            align-items: center;\n            gap: 15px;\n            cursor: pointer;\n            transition: all 0.3s ease;\n            animation: slideIn 0.5s ease-out;\n            animation-fill-mode: both;\n        }\n\n        .menu-item:nth-child(1) { animation-delay: 0.1s; }\n        .menu-item:nth-child(2) { animation-delay: 0.2s; }\n        .menu-item:nth-child(3) { animation-delay: 0.3s; }\n        .menu-item:nth-child(4) { animation-delay: 0.4s; }\n        .menu-item:nth-child(5) { animation-delay: 0.5s; }\n        .menu-item:nth-child(6) { animation-delay: 0.6s; }\n\n        @keyframes slideIn {\n            from {\n                opacity: 0;\n                transform: translateX(-20px);\n            }\n            to {\n                opacity: 1;\n                transform: translateX(0);\n            }\n        }\n\n        .menu-item:hover {\n            background: linear-gradient(135deg, #7c3aed 0%, #a855f7 100%);\n            color: white;\n            transform: translateX(5px);\n            box-shadow: 0 5px 15px rgba(124, 58, 237, 0.3);\n            border-color: #7c3aed;\n        }\n\n        .menu-item.active {\n            background: linear-gradient(135deg, #5e35b1 0%, #7e57c2 100%);\n            color: white;\n            border-color: #5e35b1;\n        }\n\n        .menu-icon {\n            font-size: 1.5em;\n            min-width: 30px;\n            text-align: center;\n        }\n\n        .menu-text {\n            font-size: 1.1em;\n            font-weight: 500;\n        }\n\n        @media (max-width: 768px) {\n            .menu-container {\n                margin: 20px;\n            }\n\n            .menu-header h1 {\n                font-size: 1.5em;\n            }\n\n            .menu-item {\n                padding: 15px 18px;\n            }\n\n            .menu-text {\n                font-size: 1em;\n            }\n        }\n    &lt;/style&gt;\n&lt;div class=\"menu-container\"&gt;\n&lt;div class=\"menu-header\"&gt;\n&lt;h1&gt;Menú&lt;/h1&gt;\n&lt;/div&gt;\n&lt;div class=\"menu-items\"&gt;\n&lt;div class=\"menu-item active\"&gt;&lt;span class=\"menu-icon\"&gt;💻&lt;/span&gt; &lt;a href=\"exe-node:20251201153404YLBVIT\"&gt;&lt;span class=\"menu-text\" id=\"link_0\"&gt;Portada&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;\n&lt;div class=\"menu-item\"&gt;&lt;span class=\"menu-icon\"&gt;🎯&lt;/span&gt; &lt;a href=\"exe-node:20251201153404KLWPVD\"&gt;&lt;span class=\"menu-text\" id=\"link_1\"&gt;Objetivo de aprendizaje&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;\n&lt;div class=\"menu-item\"&gt;&lt;span class=\"menu-icon\"&gt;📚&lt;/span&gt; &lt;a href=\"exe-node:20251201153404GWIYTD\"&gt;&lt;span class=\"menu-text\" id=\"link_2\"&gt;Contenidos&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;\n&lt;div class=\"menu-item\"&gt;&lt;span class=\"menu-icon\"&gt;👥&lt;/span&gt; &lt;a href=\"exe-node:20251201153404SREQOA\"&gt;&lt;span class=\"menu-text\" id=\"link_3\"&gt;Créditos del recurso&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;\n&lt;div class=\"menu-item\"&gt;&lt;span class=\"menu-icon\"&gt;📖&lt;/span&gt; &lt;a href=\"exe-node:20251201153404YWZMLI\"&gt;&lt;span class=\"menu-text\" id=\"link_4\"&gt;Bibliografía&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;\n&lt;div class=\"menu-item\"&gt;&lt;span class=\"menu-icon\"&gt;📥&lt;/span&gt;&lt;a href=\"exe-node:20251201153404YWZMLI\"&gt; &lt;span class=\"menu-text\" id=\"link_5\"&gt;Descarga recurso&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}</jsonProperties><odeComponentsOrder>1</odeComponentsOrder><odeComponentsProperties><odeComponentsProperty><key>visibility</key><value>true</value></odeComponentsProperty><odeComponentsProperty><key>teacherOnly</key><value>false</value></odeComponentsProperty><odeComponentsProperty><key>identifier</key><value/></odeComponentsProperty><odeComponentsProperty><key>cssClass</key><value/></odeComponentsProperty></odeComponentsProperties></odeComponent></odeComponents></odePagStructure></odePagStructures></odeNavStructure></odeNavStructures></ode>
